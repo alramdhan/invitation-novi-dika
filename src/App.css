@@ -218,7 +218,7 @@ body::-webkit-scrollbar-thumb {
 
   .layer-mempelai-bottom {
     width: 100% !important;
-    height: 420px !important;
+    height: 440px !important;
     color: #ECEDF1;
     background: url("./images/layer-ayat.png");
     background-size: cover;
@@ -372,7 +372,7 @@ body::-webkit-scrollbar-thumb {
 
 .layer-sangmempelai p {
   font-family: "Geraldine", cursive;
-  font-size: 2.2rem;
+  font-size: 2.5em;
   font-weight: 500;
   color: #683448;
   margin: 25px 15px;
@@ -413,6 +413,14 @@ body::-webkit-scrollbar-thumb {
 
 .font-esthetic {
   font-family: "Hug Life", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 48px;
+  color: #683448 !important;
+}
+
+.font-esthetic-secondary {
+  font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 48px;
@@ -520,6 +528,8 @@ body::-webkit-scrollbar-thumb {
   padding: 5px 10px;
   background-color: #683448;
   border-radius: 50px;
+  text-decoration: none;
+  padding: 6px 32px;
 }
 .fh5co-social-icons li a i {
   font-size: 20px;
@@ -531,7 +541,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #683448;
   border-radius: 110px;
   padding: 30px 35px;
-  box-shadow: 0 6px 12px #683448;
+  box-shadow: 0 8px 15px #BF9B73;
 }
 
 #table-countdown .container-countdown #day, #hour, #minute, #second {
@@ -545,8 +555,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #acara-akad,
-#acara-resepsi,
-#acara-syukuran {
+#acara-resepsi {
   padding: 30px 15px;
   margin: 20px 40px 10px 40px;
   border-radius: 15px;
@@ -554,21 +563,24 @@ body::-webkit-scrollbar-thumb {
 }
 
 #acara-akad hr,
-#acara-resepsi hr,
-#acara-syukuran hr {
+#acara-resepsi hr {
   color: #113468;
 }
 
 #table-acara-akad tbody tr td,
-#table-acara-resepsi tbody tr td,
-#table-acara-syukuran tbody tr td {
+#table-acara-resepsi tbody tr td {
   background: transparent;
 }
 
 #table-acara-akad tbody tr:first-child td,
-#table-acara-resepsi tbody tr:first-child td,
-#table-acara-syukuran tbody tr:first-child td {
+#table-acara-resepsi tbody tr:first-child td {
   color: #BF9B73;
+}
+
+#table-acara-akad a,
+#table-acara-resepsi a {
+  text-decoration: none;
+  padding: 6px 24px;
 }
 
 #acara-akad {
@@ -576,7 +588,7 @@ body::-webkit-scrollbar-thumb {
   border-top-right-radius: 100px;
 }
 
-#acara-syukuran {
+#acara-resepsi {
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
 }

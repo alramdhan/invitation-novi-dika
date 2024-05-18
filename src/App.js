@@ -169,7 +169,7 @@ function App() {
 
   return (
     <div className='App'>
-      <audio id="play-song" src={song} autoPlay preload='true' loop />
+      <audio id="play-song" src={song} preload='true' loop />
       <nav className="navbar burgundy navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menu">
         <ul className="navbar-nav nav-justified w-100 align-items-center">
           <li className="nav-item">
@@ -249,14 +249,14 @@ function App() {
             </div>
             <div className="layer-sangmempelai">
               <div>
-                <img data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" width={200} height={200} src={MempelaiWanita} alt="mempelai Pria" />
-                <p data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">Siti Novi Nurkomala</p>
-                <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
+                <img data-aos="fade-right" data-aos-delay="500" data-aos-duration="2000" width={200} height={200} src={MempelaiWanita} alt="mempelai Pria" />
+                <p data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">Siti Novi Nurkomala</p>
+                <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
                   Putri kedua dari <br /><font style={{fontFamily: '"Estonia", Arial, serif', color: "#683448", letterSpacing: 2, fontWeight: 700, fontSize: "2rem"}}>Bapak Taufik Hidayat &amp; Ibu Yoyoh</font>
                 </span>
-                <div  data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"  id="social-media-novi">
+                <div  data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000"  id="social-media-novi">
                   <ul className="fh5co-social-icons">
-                    <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/novinurkom"><img width={15} src={IG} alt="instagram" /></a></li>
+                    <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/novinurkom"><img width={15} src={IG} alt="instagram" />&nbsp;&nbsp;novinurkom</a></li>
                   </ul>
                 </div>
                 <div className="position-relative">
@@ -266,14 +266,14 @@ function App() {
                     </svg>
                   </div>
                 </div>
-                <div data-aos="flip-up" data-aos-delay="1000" data-aos-duration="1000" style={{paddingLeft: 25, paddingRight: 25}}>
+                <div data-aos="flip-up" data-aos-delay="1000" data-aos-duration="2000" style={{paddingLeft: 25, paddingRight: 25, marginTop: 25}}>
                   <table>
                     <tbody>
                       <tr>
                         <td>
                           <img width="100%" src={DividerStyle} alt="divider" />
                         </td>
-                        <td><h1 className='my-2' style={{paddingLeft: 20, paddingRight: 20}}>&amp;</h1></td>
+                        <td><h1 className='my-2' style={{paddingLeft: 10, paddingRight: 10}}>&amp;</h1></td>
                         <td>
                           <img width="100%" src={DividerStyle} alt="divider" />
                         </td>
@@ -281,7 +281,7 @@ function App() {
                     </tbody>
                   </table>
                 </div>
-                <img data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" width={200} height={200} src={MempelaiPria} alt="mempelai Pria" />
+                <img data-aos="fade-left" data-aos-delay="500" data-aos-duration="2000" width={200} height={200} src={MempelaiPria} alt="mempelai Pria" />
                 <div className="position-relative">
                   <div className="position-absolute" style={{top: "-10px", left: "10%"}}>
                     <svg xmlns="https://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="opacity-50 animate-love" viewBox="0 0 16 16">
@@ -289,13 +289,13 @@ function App() {
                     </svg>
                   </div>
                 </div>
-                <p data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000">Dika Alfarell Haidir Ramdani</p>
-                <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
+                <p data-aos="flip-right" data-aos-delay="500" data-aos-duration="2000">Dika Alfarell Haidir Ramdani</p>
+                <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
                   Putra pertama dari <br /><font style={{fontFamily: '"Estonia", Arial, serif', color: "#683448", letterSpacing: 2, fontWeight: 700, fontSize: "2rem"}}>Bapak Yul Haidir &amp; Ibu Suparti</font>
                 </span>
-                <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"  id="social-media-dika">
+                <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000"  id="social-media-dika">
                   <ul className="fh5co-social-icons">
-                    <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/al.haidirr"><img width={15} src={IG} alt="instagram" /></a></li>
+                    <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/al.haidirr"><img width={15} src={IG} alt="instagram" />&nbsp;&nbsp;al.haidirr</a></li>
                   </ul>
                 </div>
                 <div className="position-relative">
@@ -309,7 +309,7 @@ function App() {
               <img width="100%" src={Bunga2} alt="bunga 2" />
             </div>
             <div className='layer-mempelai-bottom d-flex align-items-center justify-content-center'>
-              <p data-aos="zoom-in" data-delay="1000" data-aos-duration="1000">
+              <p data-aos="zoom-in" data-delay="1000" data-aos-duration="2000">
                 <br />
                 <span className="ayat-title">Allah SWT Berfirman</span><br /><br />
                 Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari
@@ -378,7 +378,7 @@ function App() {
               </div>
             </div>
             <Card data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" id='acara-akad'>
-              <h1 className='font-esthetic'>Akad</h1>
+              <h1 className='font-esthetic-secondary' style={{fontSize: "2rem", fontWeight: 700}}>AKAD</h1>
               <hr />
               <table className='table table-borderless m-0 p-0 w-100' id='table-acara-akad'>
                 <tbody>
@@ -406,7 +406,7 @@ function App() {
                   </tr>
                   <tr>
                     <td>
-                      <a target='__blank' rel='noreferrer' href='https://maps.app.goo.gl/WDMLtLjNt7rDy2do9'><Button className='rounded-pill btn-burgundy'>Lihat Lokasi&nbsp;<FontAwesomeIcon icon={faMap} /></Button></a>
+                      <a target='__blank' rel='noreferrer' href='https://maps.app.goo.gl/WDMLtLjNt7rDy2do9' className='rounded-pill btn-burgundy'>Lihat Lokasi&nbsp;<FontAwesomeIcon icon={faMap} /></a>
                     </td>
                   </tr>
                 </tbody>
@@ -420,7 +420,7 @@ function App() {
               </div>
             </div>
             <Card data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" id='acara-resepsi'>
-              <h1 className='font-esthetic'>Resepsi</h1>
+              <h1 className='font-esthetic-secondary' style={{fontSize: "2rem", fontWeight: 700}}>RESEPSI PERNIKAHAN</h1>
               <hr />
               <table className='table table-borderless m-0 p-0 w-100' id='table-acara-resepsi'>
                 <tbody>
@@ -448,7 +448,7 @@ function App() {
                   </tr>
                   <tr>
                     <td>
-                      <a target='__blank' rel='noreferrer' href='https://maps.app.goo.gl/WDMLtLjNt7rDy2do9'><Button className='rounded-pill btn-burgundy'>Lihat Lokasi&nbsp;<FontAwesomeIcon icon={faMap} /></Button></a>
+                      <a target='__blank' rel='noreferrer' href='https://maps.app.goo.gl/WDMLtLjNt7rDy2do9' className='rounded-pill btn-burgundy'>Lihat Lokasi&nbsp;<FontAwesomeIcon icon={faMap} /></a>
                     </td>
                   </tr>
                 </tbody>
@@ -461,47 +461,12 @@ function App() {
                 </svg>
               </div>
             </div>
-            <Card data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" id='acara-syukuran'>
-              <h1 className='font-esthetic'>Syukuran</h1>
-              <hr />
-              <table className='table table-borderless m-0 p-0 w-100' id='table-acara-syukuran'>
-                <tbody>
-                  <tr className='row'>
-                    <td align='center' valign='middle' className='col-6'>
-                      <FontAwesomeIcon icon={faClock} /><br />
-                      09:00<br />
-                      Selesai
-                    </td>
-                    <td align='center' valign='middle' className='col-6'>
-                      <FontAwesomeIcon icon={faCalendar} /><br />
-                      Jum&apos;at<br />
-                      21 Juni 2024
-                    </td>
-                  </tr>
-                  <tr className='row'>
-                    <td colSpan={2} className='col-12'>
-                      <h4>Kediaman Mempelai Pria</h4>
-                    </td>
-                  </tr>
-                  <tr className='row'>
-                    <td colSpan={2} className='col-12 text-burgundy pt-0 px-4'>
-                      Alamat : Kampung Girang, gg. inpress RT 003/008, Kel. Harjasari, Kec. Bogor Selatan, Kota Bogor 16138
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <a target='__blank' rel='noreferrer' href="https://maps.app.goo.gl/KyBdmj81xLzKwmHd7"><Button className='rounded-pill btn-burgundy'>Lihat Lokasi&nbsp;<FontAwesomeIcon icon={faMap} /></Button></a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </Card>
             <div className='my-4'>
-              <div style={{paddingLeft: 30, paddingRight: 30}}>
-                <h1 className='text-secondary'>ADAB WALIMAH</h1>
-                <p className='text-secondary'>Tanpa mengurangi rasa hormat, ada hal-hal dalam adab seorang muslim ketika menghadiri walimah yang harus diperhatikan</p>
+              <div style={{paddingLeft: 30, paddingRight: 30, marginTop: 60}}>
+                <h1 data-aos="fade-up" data-aos-duration="2000" className='text-secondary'>ADAB WALIMAH</h1>
+                <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" className='text-secondary'>Tanpa mengurangi rasa hormat, ada hal-hal dalam adab seorang muslim ketika menghadiri walimah yang harus diperhatikan</p>
               </div>
-              <div id='adab-walimah'>
+              <div data-aos="flip-right" data-aos-delay="1000" data-aos-duration="2000" id='adab-walimah'>
                 <img className='img-daftar-adab-walimah' src={AdabWalimah} alt="adab-walimah" />
               </div>
             </div>
@@ -512,7 +477,7 @@ function App() {
         </section>
 
         <section className='bg2' id='gift'>
-          <div data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000" className='text-center' style={{marginTop: 50, marginBottom: 40}}>
+          <div data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000" className='text-center' style={{marginTop: 50, marginBottom: 40}}>
             <div className="position-relative">
               <div className="bunga-gift">
                 <img style={{width: "100%"}} src={Bunga1} alt="bunga1" />
@@ -526,15 +491,15 @@ function App() {
                   </svg>
                 </div>
               </div>
-              <h3 className='font-esthetic text-secondary'>Wedding Gift</h3>
+              <h3 className='font-esthetic-secondary text-secondary'>Wedding Gift</h3>
               <p>Bagi yang ingin memberikan tanda kasih, dapat mengirimkan melalui fitur di bawah ini:</p>
               <div className='rekening1'>
-                BCA<br />
-                7370269526
-                <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("7370269526")}>
+                BSI<br />
+                1181553212
+                <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("1181553212")}>
                   <FontAwesomeIcon icon={faCopy} />
                 </Button><br />
-                Yul Haidir
+                Siti Novi Nurkomala
               </div>
               <div className="position-relative">
                 <div className="position-absolute" style={{top: "0%", right: "10%"}}>
@@ -543,21 +508,13 @@ function App() {
                   </svg>
                 </div>
               </div>
-              <div className='rekening2 mt-4'>
-                Mandiri<br />
-                1330015855299
-                <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("1330015855299")}>
-                  <FontAwesomeIcon icon={faCopy} />
-                </Button><br />
-                Yul Haidir
-              </div>
               <div className='rekening3 mt-4'>
                 BCA<br />
                 7360721269
                 <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("7360721269")}>
                   <FontAwesomeIcon icon={faCopy} />
                 </Button><br />
-                Dika Alfarell Haidir
+                Dika Alfarell Haidir Ramdani
               </div>
               <div className='kotak-alamat mt-4 mb-0 pb-0'>
                 <table>
@@ -574,11 +531,11 @@ function App() {
                           <FontAwesomeIcon icon={faGifts} color="#EEE" style={{fontSize: 48}} />
                         </div>
                       </td>
-                      <td>Yul Haidir</td>
+                      <td>Novi</td>
                     </tr>
                     <tr>
                       <td>
-                        <p style={{fontSize: 11}}>Kampung Girang, gg. inpess RT 003/008, Kel. Harjasari, Kec. Bogor Selatan, Kota Bogor 16138</p>
+                        <p style={{fontSize: 11}}>Jln. Cikopo Selatan, Kp. Munjul RT02/RW05, Kec. Megamendung, Kab. Bogor 16770</p>
                       </td>
                     </tr>
                   </tbody>
@@ -595,16 +552,18 @@ function App() {
           </div>
         </section>
         <section className="bg2" id="ucapan" style={{paddingBottom: 180}}>
-          <div data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000" className='text-center'>
+          <div data-aos="flip-right" data-aos-delay="500" data-aos-duration="2000" className='text-center'>
             <div className='container-ucapan'>
-              <h1 className='font-esthetic text-secondary'>Ucapan & do&apos;a</h1>
+              <p>{ucapan != null ? ucapan.data.length + " Comment" : "0 Comment"}</p>
+              <hr style={{color: "#EDECF1"}} />
+              <h1 className='font-esthetic-secondary text-secondary'>Ucapan & do&apos;a</h1>
               <p>Kirimkan Do&apos;a & Ucapan Untuk Kedua Mempelai</p>
               <div className='row'>
                 <div className='col-12'>
                   <Form.Control name='nama_tamu' placeholder='Nama' color='#BF9B73' id='txt-nama' className='text-form' required />
                 </div>
                 <div className='col-12 mt-4'>
-                  <Form.Control name='ucapan' as="textarea" id="txt-ucapan" placeholder='Berikan Ucapan dan Do&apos;a Restu' required />
+                  <Form.Control name='ucapan' as="textarea" rows={3} id="txt-ucapan" placeholder='Berikan Ucapan dan Do&apos;a Restu' required />
                 </div>
                 <div className='col-12 mt-4'>
                   <Form.Select name='absen' id='txt-absen' onChange={absenChangeHandler} required>
@@ -621,18 +580,18 @@ function App() {
                 <table id='table-kumpulan-ucapan' className='w-100'>
                   <tbody>
                     {ucapan != null ? ucapan.data.map((u) => {
-                      const badge = u.absen === 1 ? <Badge bg='success'>Hadir</Badge> : <Badge bg='danger'>Tidak Hadir</Badge>;
+                      const badge = u.absen === 1 ? <Badge bg='success' className='pb-0' style={{fontSize: ".75rem"}}>Hadir</Badge> : <Badge bg='danger' className='pb-0' style={{fontSize: ".75rem"}}>Tidak Hadir</Badge>;
                       console.log("da", u.tanggal);
                       return (
                         <tr key={u.id}>
                           <td colSpan={2}>
                             <div className='kotak-ucapannya mb-2'>
-                              <div className='d-flex justify-content-between'>
+                              <div className='d-flex justify-content-between align-items-center'>
                                 <h5>{u.nama_tamu}&nbsp;&nbsp;&nbsp;{badge}</h5>
-                                <span>{timeSince(new Date(u.tanggal))}</span>
+                                <span style={{fontSize: ".8rem"}}>{timeSince(new Date(u.tanggal))}</span>
                               </div>
                               <hr className='mb-2 m-0 p-0' />
-                              <span>{u.ucapan}</span>
+                              <p style={{color: "#200220"}}>{u.ucapan}</p>
                             </div>
                           </td>
                         </tr>
@@ -647,7 +606,9 @@ function App() {
               </div>
             </div>
           </div>
-          <p style={{paddingLeft: 20, paddingRight: 20}}>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak / Ibu / Saudara / i. berkenan hadir untuk memberikan do'a restunya kami ucapkan terimakasih.</p>
+          <p style={{marginTop: 30, paddingLeft: 20, paddingRight: 20}}>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak / Ibu / Saudara / i. berkenan hadir untuk memberikan do'a restunya kami ucapkan terimakasih.</p>
+          <p>See you on our big day!</p>
+          <h1 className='font-esthetic'>Novi &amp; Dika</h1>
           <h1 className='font-esthetic' style={{fontSize: "2rem"}}>Wassalamu&apos;alaikum Warahmatullahi Wabarakatuh</h1>
           <div className='position-relative'>
             <div className="bunga-ucapan">
