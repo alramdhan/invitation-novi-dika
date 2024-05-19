@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/invitation-novi-dika/static/css/main.d200b508.css",
-    "main.js": "/invitation-novi-dika/static/js/main.ab7ad428.js",
+    "main.css": "/invitation-novi-dika/static/css/main.37ed8d7b.css",
+    "main.js": "/invitation-novi-dika/static/js/main.64066048.js",
     "static/js/453.c37f7de6.chunk.js": "/invitation-novi-dika/static/js/453.c37f7de6.chunk.js",
     "static/media/img-cincin.png": "/invitation-novi-dika/static/media/img-cincin.eafb2cb1a90898c58ae9.png",
     "static/media/the-corrs-lyrics.mp3": "/invitation-novi-dika/static/media/the-corrs-lyrics.f0498234aa1b2117900f.mp3",
@@ -24,12 +24,12 @@
     "static/media/bg2.jpg": "/invitation-novi-dika/static/media/bg2.f384f16fc728468a7a95.jpg",
     "index.html": "/invitation-novi-dika/index.html",
     "static/media/instagram.svg": "/invitation-novi-dika/static/media/instagram.da7c8b906a74d96374903698f965002d.svg",
-    "main.d200b508.css.map": "/invitation-novi-dika/static/css/main.d200b508.css.map",
-    "main.ab7ad428.js.map": "/invitation-novi-dika/static/js/main.ab7ad428.js.map",
+    "main.37ed8d7b.css.map": "/invitation-novi-dika/static/css/main.37ed8d7b.css.map",
+    "main.64066048.js.map": "/invitation-novi-dika/static/js/main.64066048.js.map",
     "453.c37f7de6.chunk.js.map": "/invitation-novi-dika/static/js/453.c37f7de6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d200b508.css",
-    "static/js/main.ab7ad428.js"
+    "static/css/main.37ed8d7b.css",
+    "static/js/main.64066048.js"
   ]
 }
