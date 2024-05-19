@@ -47,7 +47,7 @@ function WelcomeModal() {
                             </div>
                             <div className="row">
                                 <div className="col-md-12 col-md-offset-2 text-center fh5co-heading">
-                                    <h1 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='welcome-pengantin text-secondary my-4' style={{fontSize: "2rem"}}>Novi & Dika</h1>
+                                    <h1 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='welcome-pengantin text-secondary my-2' style={{fontSize: "2rem"}}>Novi & Dika</h1>
                                     <p data-aos="zoom-in" data-aos-delay="1250" data-aos-duration="2000" style={{color: "#EEE", marginBottom: 0}}>Kepada yth. Bapak/Ibu/Saudara/i</p>
                                     <h3 data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="2000" style={{color: "#EEE", marginBottom: 0, fontWeight: "bold"}}>{queryParam.get("to")}</h3>
                                     <p data-aos="zoom-in" data-aos-delay="1750" data-aos-duration="2000" style={{color: "#EEE", fontSize: 12, marginTop: 7}}>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>

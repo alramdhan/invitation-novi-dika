@@ -182,8 +182,18 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@keyframes reverse-love {
+  50% {
+    transform: translateY(-1rem);
+  }
+}
+
 .animate-love {
   animation: love 5s ease-in-out infinite;
+}
+
+.animate-love-reverse {
+  animation: reverse-love 5s ease-in-out infinite;
 }
 
 .mouse-scroll-home {
@@ -275,9 +285,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 770px) {
-  #overlay .content .welcome-pengantin {
-    margin-bottom: 12% !important;
-  }
   #gift .rekening1,
   #gift .rekening2,
   #gift .rekening3 {
@@ -382,6 +389,12 @@ body::-webkit-scrollbar-thumb {
   #countdown .container-countdown {
     width: 76px !important;
     padding: 13px 18px !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #overlay .content .welcome-pengantin {
+    margin-bottom: 8% !important;
   }
 }
 
@@ -643,22 +656,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 #adab-walimah {
-  padding: 30px;
-  width: 80%;
-  height: 780px;
+  padding: 8px 32px;
+  /* height: 788px !important; */
   margin: auto;
-  background-image: url('./images/bg3.png');
+  background-image: url('./images/adab-walimah.png');
   background-size: cover;
   background-position: center;
+  background-clip: content-box;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#adab-walimah .img-daftar-adab-walimah {
-  width: 72%;
-  border-radius: 30px !important;
-}
+/* #adab-walimah .img-daftar-adab-walimah {
+  width: 75% !important;
+} */
 
 #gift .container-gift {
   margin: 10px;
