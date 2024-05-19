@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/invitation-novi-dika/static/css/main.6bfd354d.css",
-    "main.js": "/invitation-novi-dika/static/js/main.afd7829c.js",
+    "main.css": "/invitation-novi-dika/static/css/main.2585a28e.css",
+    "main.js": "/invitation-novi-dika/static/js/main.14c5a882.js",
     "static/js/453.c37f7de6.chunk.js": "/invitation-novi-dika/static/js/453.c37f7de6.chunk.js",
     "static/media/img-cincin.png": "/invitation-novi-dika/static/media/img-cincin.eafb2cb1a90898c58ae9.png",
     "static/media/the-corrs-lyrics.mp3": "/invitation-novi-dika/static/media/the-corrs-lyrics.f0498234aa1b2117900f.mp3",
@@ -16,18 +16,20 @@
     "static/media/HughIsLifePersonalUseItalic-K7axe.ttf": "/invitation-novi-dika/static/media/HughIsLifePersonalUseItalic-K7axe.e44eb6bf4ce380aeae6b.ttf",
     "static/media/bg1.jpg": "/invitation-novi-dika/static/media/bg1.44944320f0fd3edc9e61.jpg",
     "static/media/bg-welcome.jfif": "/invitation-novi-dika/static/media/bg-welcome.625668eac9b8bd44e775.jfif",
+    "static/media/AudreyTatum.otf": "/invitation-novi-dika/static/media/AudreyTatum.eb6d6693ef17e08e286c.otf",
     "static/media/bismillah.png": "/invitation-novi-dika/static/media/bismillah.4abee8ba3fc280700d1d.png",
     "static/media/divider.png": "/invitation-novi-dika/static/media/divider.5b818b38e84d56983c62.png",
     "static/media/layer-ayat.png": "/invitation-novi-dika/static/media/layer-ayat.2b7871e6fa69aea32190.png",
+    "static/media/CamelliaSignature.otf": "/invitation-novi-dika/static/media/CamelliaSignature.a92607b7ae6914eb65cb.otf",
     "static/media/bg2.jpg": "/invitation-novi-dika/static/media/bg2.f384f16fc728468a7a95.jpg",
     "index.html": "/invitation-novi-dika/index.html",
     "static/media/instagram.svg": "/invitation-novi-dika/static/media/instagram.da7c8b906a74d96374903698f965002d.svg",
-    "main.6bfd354d.css.map": "/invitation-novi-dika/static/css/main.6bfd354d.css.map",
-    "main.afd7829c.js.map": "/invitation-novi-dika/static/js/main.afd7829c.js.map",
+    "main.2585a28e.css.map": "/invitation-novi-dika/static/css/main.2585a28e.css.map",
+    "main.14c5a882.js.map": "/invitation-novi-dika/static/js/main.14c5a882.js.map",
     "453.c37f7de6.chunk.js.map": "/invitation-novi-dika/static/js/453.c37f7de6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bfd354d.css",
-    "static/js/main.afd7829c.js"
+    "static/css/main.2585a28e.css",
+    "static/js/main.14c5a882.js"
   ]
 }
