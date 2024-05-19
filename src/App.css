@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
 #overlay .content .welcome-pengantin {
   font-family: "Camellia Signature";
   font-style: normal;
-  margin-bottom: 15% !important;
+  margin-bottom: 20% !important;
 }
 
 #overlay .content .couple-main {
@@ -275,6 +275,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 770px) {
+  #overlay .content .welcome-pengantin {
+    margin-bottom: 12% !important;
+  }
   #gift .rekening1,
   #gift .rekening2,
   #gift .rekening3 {

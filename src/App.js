@@ -34,6 +34,7 @@ import song from './audio/the-corrs-lyrics.mp3';
 import { Badge, Button, Card, Form, Toast, ToastContainer } from 'react-bootstrap';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import ReactAudioPlayer from 'react-audio-player';
 
 const baseUrl = "https://invitation-alnovi.000webhostapp.com/api";
 
@@ -169,7 +170,7 @@ function App() {
 
   return (
     <div className='App'>
-      <audio id="play-song" src={song} preload='true' loop />
+      <ReactAudioPlayer id="play-song" src={song} preload='metadata' loop />
       <nav className="navbar burgundy navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menu">
         <ul className="navbar-nav nav-justified w-100 align-items-center">
           <li className="nav-item">
@@ -379,7 +380,7 @@ function App() {
               </div>
             </div>
             <Card data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" id='acara-akad'>
-              <h1 style={{fontSize: "2rem", fontWeight: 700}}>AKAD</h1>
+              <h1 style={{fontSize: "1.4rem", fontWeight: 700}}>AKAD</h1>
               <hr />
               <table className='table table-borderless m-0 p-0 w-100' id='table-acara-akad'>
                 <tbody>
@@ -421,7 +422,7 @@ function App() {
               </div>
             </div>
             <Card data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" id='acara-resepsi'>
-              <h1 style={{fontSize: "2rem", fontWeight: 700}}>RESEPSI PERNIKAHAN</h1>
+              <h1 style={{fontSize: "1.4rem", fontWeight: 700}}>RESEPSI PERNIKAHAN</h1>
               <hr />
               <table className='table table-borderless m-0 p-0 w-100' id='table-acara-resepsi'>
                 <tbody>
