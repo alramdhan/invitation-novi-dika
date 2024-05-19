@@ -552,7 +552,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="bg2" id="ucapan" style={{paddingBottom: 180}}>
+        <section className="bg2" id="ucapan" style={{paddingBottom: 150}}>
           <div data-aos="flip-right" data-aos-delay="500" data-aos-duration="2000" className='text-center'>
             <div className='container-ucapan'>
               <p>{ucapan != null ? ucapan.data.length + " Comment" : "0 Comment"}</p>

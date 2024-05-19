@@ -315,7 +315,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 170px !important;
   }
   #ucapan .bunga-ucapan {
-    bottom: -100px !important;
+    bottom: -70px !important;
   }
 }
 
@@ -768,7 +768,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -130px;
+  bottom: -124px;
 }
 
 @keyframes in-out {
