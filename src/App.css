@@ -14,8 +14,18 @@ body {
   src: url('./fonts/geraldine-font/GeraldinePersonalUseItalic-PK12m.ttf');
 }
 
+@font-face {
+  font-family: "Audrey Tatum";
+  src: url('./fonts/audrey-tatum/AudreyTatum.otf');
+}
+
+@font-face {
+  font-family: "Camellia Signature";
+  src: url('./fonts/camellia-signature/CamelliaSignature.otf');
+}
+
 .fs5 {
-  font-size: 72px !important;
+  font-size: 42px !important;
 }
 
 .App {
@@ -106,6 +116,17 @@ body::-webkit-scrollbar-thumb {
   padding-top: 20px;
 }
 
+#overlay .content .welcome-title {
+  font-family: "Audrey Tatum";
+  font-style: normal;
+}
+
+#overlay .content .welcome-pengantin {
+  font-family: "Camellia Signature";
+  font-style: normal;
+  margin-bottom: 15% !important;
+}
+
 #overlay .content .couple-main {
   width: 200px;
 }
@@ -174,7 +195,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 100px !important;
   }
   .mouse-scroll-home {
-    padding-top: 170px !important;
+    padding-top: 25% !important;
   }
   .judul1 {
     margin-top: 100px !important;
@@ -362,7 +383,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 .judul1 {
-  margin-top: 200px;
+  margin-top: 180px;
+  font-family: 'Audrey Tatum';
+  color: #683448;
+  font-style: normal;
+}
+
+#home .title-pengantin {
+  font-family: 'Camellia Signature';
+  color: #683448;
+  font-style: normal;
+  margin-bottom: 10%;
 }
 
 .layer-sangmempelai {
@@ -370,20 +401,28 @@ body::-webkit-scrollbar-thumb {
   min-height: 300px;
 }
 
-.layer-sangmempelai p {
-  font-family: "Geraldine", cursive;
-  font-size: 2.5em;
+.layer-sangmempelai h2 {
+  font-family: "Bebas Neue", cursive;
+  /* font-size: 2.5em; */
   font-weight: 500;
   color: #683448;
-  margin: 25px 15px;
+  margin: 5px 15px;
 }
 
 .layer-sangmempelai h1 {
-  font-family: "Geraldine", cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 3rem;
   font-weight: 500;
   color: #683448;
   margin: 40px 0 !important;
+}
+
+.layer-sangmempelai div .nama-ortu {
+  font-family: "Playfair Display", serif;
+  color: #683448 !important;
+  letter-spacing: 2;
+  font-weight: 500;
+  font-size: "1.2rem";
 }
 
 .layer-mempelai-bottom {
@@ -420,7 +459,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .font-esthetic-secondary {
-  font-family: "Dancing Script", cursive;
+  font-family: "Bebas Neue", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 48px;
@@ -567,6 +606,13 @@ body::-webkit-scrollbar-thumb {
   color: #113468;
 }
 
+#acara-akad h1,
+#acara-resepsi h1 {
+  font-family: "Kaushan Script", cursive;
+  color: #683448;
+  font-style: normal;
+}
+
 #table-acara-akad tbody tr td,
 #table-acara-resepsi tbody tr td {
   background: transparent;
@@ -626,6 +672,13 @@ body::-webkit-scrollbar-thumb {
   color: #EDECF1;
 }
 
+#gift .container-gift h3 {
+  font-family: "Kaushan Script", cursive;
+  color: #BF9B73;
+  font-size: 2.5rem;
+  font-style: normal;
+}
+
 #gift .bunga-gift {
   position: absolute;
   top: -60px;
@@ -643,7 +696,7 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid #BF9B73;
   border-radius: 10px;
   color: #EDECF1;
-  background-image: linear-gradient(to bottom right, #BF9B73, #322B2F);
+  background-image: linear-gradient(to bottom right, #BF9B73, #33312E);
 }
 
 #gift .kotak-alamat {
@@ -666,6 +719,13 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px;
   border: 4px solid #BF9B73;
   background-color: #683448;
+}
+
+#ucapan .container-ucapan h1 {
+  font-family: "Kaushan Script", cursive;
+  color: #BF9B73;
+  font-size: 2.5rem;
+  font-style: normal;
 }
 
 #ucapan .container-ucapan p {

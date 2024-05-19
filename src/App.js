@@ -209,14 +209,14 @@ function App() {
         <Fireworks decorateOptions={decorateOptions} autorun={{speed: 3, duration: 10000, delay: 4500}} />
         <section className='bg1' id='home'>
           <div className="w-100 text-center pt-4">
-            <h1 className="font-esthetic title-pengantin judul1" style={{fontSize: "4rem", fontWeight: 500, marginTop: 200}}>The Wedding Of</h1>
-            <div className="">
+            <h1 className="judul1" style={{fontSize: "2.5rem", fontWeight: 500, marginTop: 200}}>The Wedding Of</h1>
+            <div className="mb-4">
               <div className="img-crop mx-auto foto-home">
                 <img className="couple-foto" src={Cincin1} alt="bg" />
               </div>
             </div>
 
-            <h3 className="font-esthetic title-pengantin" style={{fontSize: "2.5rem"}}>Novi &amp; Dika</h3>
+            <h3 className="title-pengantin" style={{fontSize: "2rem"}}>Novi &amp; Dika</h3>
             <p className="mb-0" style={{fontSize: 1.5+"rem"}}>Minggu, 23 Juni 2024</p>
 
             <a className="btn btn-sm shadow btn-outline-burgundy rounded-pill px-3 my-2" target="_blank" rel='noreferrer' href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NW9mYmtiMjA0b2VmNGo4MnZtNTg4aG9ndTMgZjdiYjBmNmJlYzI5Y2NkNmM2ZDJjYThlOTg2MDhhYjM2NTgwZDRmMDExNmQ1YWVhMGY3ZDY3N2ZlNzQ0YjNmY0Bn&tmsrc=f7bb0f6bec29ccd6c6d2ca8e98608ab36580d4f0116d5aea0f7d677fe744b3fc%40group.calendar.google.com">
@@ -236,8 +236,8 @@ function App() {
           <div className='w-100 text-center pt-4' style={{marginBottom: 40}}>
             <img data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" width="70%" src={Bismillah} alt="bismillah"  />
 
-            <h3 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className="font-esthetic" style={{fontSize: "2.5rem", marginTop: 10}}>Assalamu&apos;alaikum Wr. Wb.</h3>
-            <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" style={{padding: 15}}>
+            <h3 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" style={{fontSize: "2.5rem", color: "#683448", marginTop: 10}}>Assalamu&apos;alaikum Wr. Wb.</h3>
+            <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className='mb-2' style={{padding: "4px 20px"}}>
               Tanpa mengurangi rasa hormat. Kami mengundang Bapak/Ibu/Saudara/i serta Kerabat sekalian untuk menghadiri acara Pernikahan kami:
             </p>
             <div className="position-relative">
@@ -247,14 +247,15 @@ function App() {
                 </svg>
               </div>
             </div>
-            <div className="layer-sangmempelai">
+            <br />
+            <div className="layer-sangmempelai mt-4">
               <div>
                 <img data-aos="fade-right" data-aos-delay="500" data-aos-duration="2000" width={200} height={200} src={MempelaiWanita} alt="mempelai Pria" />
-                <p data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">Siti Novi Nurkomala</p>
-                <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
-                  Putri kedua dari <br /><font style={{fontFamily: '"Estonia", Arial, serif', color: "#683448", letterSpacing: 2, fontWeight: 700, fontSize: "2rem"}}>Bapak Taufik Hidayat &amp; Ibu Yoyoh</font>
-                </span>
-                <div  data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000"  id="social-media-novi">
+                <h2 className='mt-4' data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">Siti Novi Nurkomala</h2>
+                <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="2000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
+                  Putri kedua dari <br /><font className="nama-ortu">Bapak Taufik Hidayat &amp; Ibu Yoyoh</font>
+                </div>
+                <div  data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="2000"  id="social-media-novi">
                   <ul className="fh5co-social-icons">
                     <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/novinurkom"><img width={15} src={IG} alt="instagram" />&nbsp;&nbsp;novinurkom</a></li>
                   </ul>
@@ -266,7 +267,7 @@ function App() {
                     </svg>
                   </div>
                 </div>
-                <div data-aos="flip-up" data-aos-delay="1000" data-aos-duration="2000" style={{paddingLeft: 25, paddingRight: 25, marginTop: 25}}>
+                <div data-aos="flip-up" data-aos-delay="1700" data-aos-duration="2000" style={{paddingLeft: 25, paddingRight: 25, marginTop: 25}}>
                   <table>
                     <tbody>
                       <tr>
@@ -289,11 +290,11 @@ function App() {
                     </svg>
                   </div>
                 </div>
-                <p data-aos="flip-right" data-aos-delay="500" data-aos-duration="2000">Dika Alfarell Haidir Ramdani</p>
-                <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
-                  Putra pertama dari <br /><font style={{fontFamily: '"Estonia", Arial, serif', color: "#683448", letterSpacing: 2, fontWeight: 700, fontSize: "2rem"}}>Bapak Yul Haidir &amp; Ibu Suparti</font>
-                </span>
-                <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000"  id="social-media-dika">
+                <h2 className='mt-4' data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">Dika Alfarell Haidir Ramdani</h2>
+                <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="2000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
+                  Putra pertama dari <br /><font className="nama-ortu">Bapak Yul Haidir &amp; Ibu Suparti</font>
+                </div>
+                <div data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="2000"  id="social-media-dika">
                   <ul className="fh5co-social-icons">
                     <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/al.haidirr"><img width={15} src={IG} alt="instagram" />&nbsp;&nbsp;al.haidirr</a></li>
                   </ul>
@@ -331,10 +332,10 @@ function App() {
         <section className="bg2" id="countdown">
           <div className='text-center'>
             <h1 className='font-esthetic'>Our Wedding</h1>
-            <h1 data-aos="zoom-in" data-aos-duration="1000">Waktu Menuju Acara</h1>
-            <h5 data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" className='text-secondary'>23/06/2024</h5>
-            <div  data-aos="zoom-in" data-aos-delay="750" data-aos-duration="1000" style={{
-              border: "1px solid #683448",
+            <h1 data-aos="zoom-in" data-aos-duration="2000">Waktu Menuju Acara</h1>
+            <h5 data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000" className='text-secondary'>23/06/2024</h5>
+            <div  data-aos="zoom-in" data-aos-delay="750" data-aos-duration="2000" style={{
+              border: "2px solid #683448",
               borderRadius: "75px",
               padding: "10px 0",
               margin: 0,
@@ -378,7 +379,7 @@ function App() {
               </div>
             </div>
             <Card data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" id='acara-akad'>
-              <h1 className='font-esthetic-secondary' style={{fontSize: "2rem", fontWeight: 700}}>AKAD</h1>
+              <h1 style={{fontSize: "2rem", fontWeight: 700}}>AKAD</h1>
               <hr />
               <table className='table table-borderless m-0 p-0 w-100' id='table-acara-akad'>
                 <tbody>
@@ -420,7 +421,7 @@ function App() {
               </div>
             </div>
             <Card data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" id='acara-resepsi'>
-              <h1 className='font-esthetic-secondary' style={{fontSize: "2rem", fontWeight: 700}}>RESEPSI PERNIKAHAN</h1>
+              <h1 style={{fontSize: "2rem", fontWeight: 700}}>RESEPSI PERNIKAHAN</h1>
               <hr />
               <table className='table table-borderless m-0 p-0 w-100' id='table-acara-resepsi'>
                 <tbody>
@@ -463,7 +464,7 @@ function App() {
             </div>
             <div className='my-4'>
               <div style={{paddingLeft: 30, paddingRight: 30, marginTop: 60}}>
-                <h1 data-aos="fade-up" data-aos-duration="2000" className='text-secondary'>ADAB WALIMAH</h1>
+                <h1 data-aos="fade-up" data-aos-duration="2000" className='text-secondary' style={{fontWeight: 700}}>ADAB WALIMAH</h1>
                 <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" className='text-secondary'>Tanpa mengurangi rasa hormat, ada hal-hal dalam adab seorang muslim ketika menghadiri walimah yang harus diperhatikan</p>
               </div>
               <div data-aos="flip-right" data-aos-delay="1000" data-aos-duration="2000" id='adab-walimah'>
@@ -491,7 +492,7 @@ function App() {
                   </svg>
                 </div>
               </div>
-              <h3 className='font-esthetic-secondary text-secondary'>Wedding Gift</h3>
+              <h3 className='text-secondary'>Wedding Gift</h3>
               <p>Bagi yang ingin memberikan tanda kasih, dapat mengirimkan melalui fitur di bawah ini:</p>
               <div className='rekening1'>
                 BSI<br />
@@ -556,7 +557,7 @@ function App() {
             <div className='container-ucapan'>
               <p>{ucapan != null ? ucapan.data.length + " Comment" : "0 Comment"}</p>
               <hr style={{color: "#EDECF1"}} />
-              <h1 className='font-esthetic-secondary text-secondary'>Ucapan & do&apos;a</h1>
+              <h1 className='text-secondary'>Ucapan & do&apos;a</h1>
               <p>Kirimkan Do&apos;a & Ucapan Untuk Kedua Mempelai</p>
               <div className='row'>
                 <div className='col-12'>
@@ -608,8 +609,10 @@ function App() {
           </div>
           <p style={{marginTop: 30, paddingLeft: 20, paddingRight: 20}}>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak / Ibu / Saudara / i. berkenan hadir untuk memberikan do'a restunya kami ucapkan terimakasih.</p>
           <p>See you on our big day!</p>
-          <h1 className='font-esthetic'>Novi &amp; Dika</h1>
-          <h1 className='font-esthetic' style={{fontSize: "2rem"}}>Wassalamu&apos;alaikum Warahmatullahi Wabarakatuh</h1>
+          <br /><br />
+          <h1 style={{fontFamily: '"Camellia Signature"', color: "#683448"}}>Novi &amp; Dika</h1>
+          <br />
+          <h1 style={{fontSize: "2rem", color: "#683448"}}>Wassalamu&apos;alaikum Warahmatullahi Wabarakatuh</h1>
           <div className='position-relative'>
             <div className="bunga-ucapan">
               <img style={{width: "100%"}} src={Bunga2} alt="bunga2" />
