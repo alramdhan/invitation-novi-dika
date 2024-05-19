@@ -1,9 +1,10 @@
 {
-  "name": "wedding_invitation",
+  "name": "invitation-novi-dika",
   "version": "0.1.0",
   "homepage": "https://alramdhan.github.io/invitation-novi-dika/",
   "private": true,
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -14,7 +15,7 @@
     "aos": "^2.3.4",
     "axios": "^0.24.0",
     "bootstrap": "^5.3.3",
-    "moment": "^2.30.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
     "react-canvas-confetti": "^2.0.7",
@@ -49,8 +50,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }

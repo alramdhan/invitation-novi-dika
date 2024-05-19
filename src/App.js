@@ -219,7 +219,7 @@ function App() {
             <h3 className="font-esthetic title-pengantin" style={{fontSize: "2.5rem"}}>Novi &amp; Dika</h3>
             <p className="mb-0" style={{fontSize: 1.5+"rem"}}>Minggu, 23 Juni 2024</p>
 
-            <a className="btn btn-sm shadow btn-outline-burgundy rounded-pill px-3 my-2" target="_blank" rel='noreferrer' href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MTh0ZGU5ZzVwa28xdnBndTdwMmZxYnNhNnIgZjdiYjBmNmJlYzI5Y2NkNmM2ZDJjYThlOTg2MDhhYjM2NTgwZDRmMDExNmQ1YWVhMGY3ZDY3N2ZlNzQ0YjNmY0Bn&tmsrc=f7bb0f6bec29ccd6c6d2ca8e98608ab36580d4f0116d5aea0f7d677fe744b3fc%40group.calendar.google.com">
+            <a className="btn btn-sm shadow btn-outline-burgundy rounded-pill px-3 my-2" target="_blank" rel='noreferrer' href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NW9mYmtiMjA0b2VmNGo4MnZtNTg4aG9ndTMgZjdiYjBmNmJlYzI5Y2NkNmM2ZDJjYThlOTg2MDhhYjM2NTgwZDRmMDExNmQ1YWVhMGY3ZDY3N2ZlNzQ0YjNmY0Bn&tmsrc=f7bb0f6bec29ccd6c6d2ca8e98608ab36580d4f0116d5aea0f7d677fe744b3fc%40group.calendar.google.com">
               <FontAwesomeIcon icon={faCalendar} />&nbsp;Save The Date
             </a>
 
@@ -406,7 +406,7 @@ function App() {
                   </tr>
                   <tr>
                     <td>
-                      <a target='__blank' rel='noreferrer' href='https://maps.app.goo.gl/WDMLtLjNt7rDy2do9' className='rounded-pill btn-burgundy'>Lihat Lokasi&nbsp;<FontAwesomeIcon icon={faMap} /></a>
+                      <a target='__blank' rel='noreferrer' href='https://maps.app.goo.gl/ivTqz3mA6dzFMy7R7' className='rounded-pill btn-burgundy'>Lihat Lokasi&nbsp;<FontAwesomeIcon icon={faMap} /></a>
                     </td>
                   </tr>
                 </tbody>
@@ -448,7 +448,7 @@ function App() {
                   </tr>
                   <tr>
                     <td>
-                      <a target='__blank' rel='noreferrer' href='https://maps.app.goo.gl/WDMLtLjNt7rDy2do9' className='rounded-pill btn-burgundy'>Lihat Lokasi&nbsp;<FontAwesomeIcon icon={faMap} /></a>
+                      <a target='__blank' rel='noreferrer' href='https://maps.app.goo.gl/Sh3DoiJeWfsk55eR9' className='rounded-pill btn-burgundy'>Lihat Lokasi&nbsp;<FontAwesomeIcon icon={faMap} /></a>
                     </td>
                   </tr>
                 </tbody>
