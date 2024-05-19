@@ -235,8 +235,8 @@ function App() {
         <section className='bg2' id="mempelai">
           <div className='w-100 text-center pt-4' style={{marginBottom: 40}}>
             <img data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" width="70%" src={Bismillah} alt="bismillah"  />
-
-            <h3 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" style={{fontSize: "2.5rem", color: "#683448", marginTop: 10}}>Assalamu&apos;alaikum Wr. Wb.</h3>
+            
+            <h3 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" style={{fontSize: "1.6rem", color: "#683448", marginTop: 20}}>Assalamu&apos;alaikum Wr. Wb.</h3>
             <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className='mb-2' style={{padding: "4px 20px"}}>
               Tanpa mengurangi rasa hormat. Kami mengundang Bapak/Ibu/Saudara/i serta Kerabat sekalian untuk menghadiri acara Pernikahan kami:
             </p>
@@ -267,7 +267,7 @@ function App() {
                     </svg>
                   </div>
                 </div>
-                <div data-aos="flip-up" data-aos-delay="1700" data-aos-duration="2000" style={{paddingLeft: 25, paddingRight: 25, marginTop: 25}}>
+                <div data-aos="flip-up" data-aos-delay="1500" data-aos-duration="2000" style={{paddingLeft: 25, paddingRight: 25, marginTop: 25}}>
                   <table>
                     <tbody>
                       <tr>
@@ -607,12 +607,12 @@ function App() {
               </div>
             </div>
           </div>
-          <p style={{marginTop: 30, paddingLeft: 20, paddingRight: 20}}>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak / Ibu / Saudara / i. berkenan hadir untuk memberikan do'a restunya kami ucapkan terimakasih.</p>
+          <p style={{marginTop: 30, paddingLeft: 20, paddingRight: 20}}>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak/Ibu/Saudara/i berkenan hadir pada hari bahagia ini. terima kasih atas ucapan, do&apos;a dan perhatian yang diberikan</p>
           <p>See you on our big day!</p>
-          <br /><br />
+          <br />
           <h1 style={{fontFamily: '"Camellia Signature"', color: "#683448"}}>Novi &amp; Dika</h1>
           <br />
-          <h1 style={{fontSize: "2rem", color: "#683448"}}>Wassalamu&apos;alaikum Warahmatullahi Wabarakatuh</h1>
+          <h1 style={{fontSize: "1.4rem", color: "#683448", padding: "16px 0px"}}>Wassalamu&apos;alaikum Warahmatullahi Wabarakatuh</h1>
           <div className='position-relative'>
             <div className="bunga-ucapan">
               <img style={{width: "100%"}} src={Bunga2} alt="bunga2" />

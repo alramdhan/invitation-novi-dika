@@ -403,7 +403,7 @@ body::-webkit-scrollbar-thumb {
 
 .layer-sangmempelai h2 {
   font-family: "Bebas Neue", cursive;
-  /* font-size: 2.5em; */
+  font-size: 2rem;
   font-weight: 500;
   color: #683448;
   margin: 5px 15px;
