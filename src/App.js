@@ -332,8 +332,8 @@ function App() {
         </section>
         <section className="bg2" id="countdown">
           <div className='text-center'>
-            <h1 className='font-esthetic'>Our Wedding</h1>
-            <h1 data-aos="zoom-in" data-aos-duration="2000">Waktu Menuju Acara</h1>
+            <h1 className='font-esthetic' style={{fontSize: "4rem"}}>Our Wedding</h1>
+            <h2 data-aos="zoom-in" data-aos-duration="2000">Waktu Menuju Acara</h2>
             <h5 data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000" className='text-secondary'>23/06/2024</h5>
             <div  data-aos="zoom-in" data-aos-delay="750" data-aos-duration="2000" style={{
               border: "2px solid #BF9B73",

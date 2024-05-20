@@ -263,14 +263,6 @@ body::-webkit-scrollbar-thumb {
   .mouse-scroll-home {
     padding-top: 60px;
   }
-
-  #adab-walimah {
-    height: 600px !important;
-  }
-
-  #adab-walimah .img-daftar-adab-walimah {
-    width: 100% !important;
-  }
 }
 
 @media screen and (max-width: 380px) {
@@ -655,22 +647,9 @@ body::-webkit-scrollbar-thumb {
   border-bottom-right-radius: 100px;
 }
 
-#adab-walimah {
-  padding: 8px 32px;
-  /* height: 788px !important; */
-  margin: auto;
-  background-image: url('./images/adab-walimah.png');
-  background-size: cover;
-  background-position: center;
-  background-clip: content-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.img-daftar-adab-walimah {
+  border-radius: 60px !important;
 }
-
-/* #adab-walimah .img-daftar-adab-walimah {
-  width: 75% !important;
-} */
 
 #gift .container-gift {
   margin: 10px;
