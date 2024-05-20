@@ -171,42 +171,42 @@ function App() {
   return (
     <div className='App'>
       <ReactAudioPlayer id="play-song" src={song} preload='metadata' loop />
-      <nav className="navbar burgundy navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menu">
-        <ul className="navbar-nav nav-justified w-100 align-items-center">
-          <li className="nav-item">
-            <a className="nav-link" href="#home">
-              <FontAwesomeIcon icon={faHome} color='#EEE' />
-              <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Home</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#mempelai">
-              <img width={25} src={mempelai} alt="mempelai" />
-              <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Mempelai</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#countdown">
-              <img width={25} src={countdown} alt="countdown" />
-              <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Tanggal</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#gift">
-              <FontAwesomeIcon icon={faGift} color="#EEE" />
-              <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Gift</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#ucapan">
-              <FontAwesomeIcon icon={faComments} color='#EEE' />
-              <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Ucapan</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
       
       <main className='container-main' data-bs-spy="scroll" data-bs-target="#navbar-menu" data-bs-smooth-scroll="true">
+        <nav className="navbar burgundy navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menu">
+          <ul className="navbar-nav nav-justified w-100 align-items-center">
+            <li className="nav-item">
+              <a className="nav-link" href="#home">
+                <FontAwesomeIcon icon={faHome} color='#EEE' />
+                <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Home</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#mempelai">
+                <img width={25} src={mempelai} alt="mempelai" />
+                <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Mempelai</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#countdown">
+                <img width={25} src={countdown} alt="countdown" />
+                <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Tanggal</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#gift">
+                <FontAwesomeIcon icon={faGift} color="#EEE" />
+                <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Gift</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#ucapan">
+                <FontAwesomeIcon icon={faComments} color='#EEE' />
+                <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Ucapan</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
         <Fireworks decorateOptions={decorateOptions} autorun={{speed: 3, duration: 10000, delay: 4500}} />
         <section className='bg1' id='home'>
           <div className="w-100 text-center pt-4">
@@ -468,13 +468,10 @@ function App() {
                 <h1 data-aos="fade-up" data-aos-duration="2000" className='text-secondary' style={{fontWeight: 700}}>ADAB WALIMAH</h1>
                 <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" className='text-secondary'>Tanpa mengurangi rasa hormat, ada hal-hal dalam adab seorang muslim ketika menghadiri walimah yang harus diperhatikan</p>
               </div>
-              <img className='img-daftar-adab-walimah' width="100%" style={{padding: "8px 24px"}} src={AdabWalimah} alt="adab-walimah" />
+              <img data-aos="flip-right" data-aos-delay="1000" data-aos-duration="2000" className='img-daftar-adab-walimah' width="100%" style={{padding: "8px 24px"}} src={AdabWalimah} alt="adab-walimah" />
               {/* <div data-aos="flip-right" data-aos-delay="1000" data-aos-duration="2000" id='adab-walimah'> */}
               {/* </div> */}
             </div>
-          </div>
-          <div>
-
           </div>
         </section>
 
