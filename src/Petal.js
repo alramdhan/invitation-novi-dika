@@ -1,4 +1,4 @@
-import './Petal.css';
+import './Petal.scss';
 
 function Petals() {
     return (

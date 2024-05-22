@@ -1,3 +1,10 @@
+@function randomTran($max, $min) {
+    $rand: random();
+    $randomNum: $min + floor($rand * (($max - $min) + 1));
+
+    @return $randomNum;
+}
+
 .petal {
 	position: fixed;
 	width: 100%;
@@ -333,11 +340,11 @@
 /* animation */
 @keyframes petalAnim1 {
 	0% {
-		transform: translate3d(0, 0, 0) rotateX(0) rotateY(0);
+		transform: translate3d(0, 0, 0) rotate(0);
 	}
 
 	100% {
-		transform: translate3d(300px, 1200px, 0px) rotateX(180deg)  rotateY(360deg);
+		transform: translate3d(#{randomTran(0, 300)}px, 1200px, 0px) rotate(180deg);
 	}
 }
 
@@ -347,7 +354,7 @@
 	}
 
 	100% {
-		transform: translate3d(-400px, 1200px, 100px) rotateX(180deg);
+		transform: translate3d(#{randomTran(-400, -200)}px, 1100px, 100px) rotateX(180deg);
 	}
 }
 
@@ -357,6 +364,6 @@
 	}
 
 	100% {
-		transform: translate3d(150px, 1200px, 100px) rotateX(180deg);
+		transform: translate3d(#{randomTran(150, 250)}px, 1080px, 100px) rotateX(180deg);
 	}
 }
