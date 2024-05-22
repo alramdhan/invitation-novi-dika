@@ -8,230 +8,232 @@
 .petal {
 	position: fixed;
 	width: 100%;
-    top: -50px;
+    top: -30px;
+	z-index: 100;
     text-align: center;
 }
 
 .petal span {
-    display: inline-block;
-	/* position: absolute; */
+	display: inline-block;
+	// position: absolute;
 	/* top: -10%;
 	left: 0; */
+	pointer-events: none;
 	width: 12px;
 	height: 12px;
+	z-index: 1058;
     border-radius: 200px 10px 200px 200px;
-    transform: skewX(30deg);
     backface-visibility: visible;
 	background: linear-gradient(to bottom, #FAACA8, #CDD6F3);
-    animation: petalAnim1 10s ease infinite;
+    animation: petalAnim3 15s ease infinite;
 }
 
 /* add animation */
-.petal span:nth-child(3n+2) {
-    animation: petalAnim2 10s ease infinite;
+.petal span:nth-of-type(3n+2) {
+    animation: petalAnim2 13s ease infinite;
 }
-.petal span:nth-child(3n+1) {
-    animation: petalAnim3 10s ease-in-out infinite;
+.petal span:nth-of-type(3n+1) {
+    animation: petalAnim1 14s ease infinite;
 }
 
 /* side position */
-.petal span:nth-of-type(1) {
+.petal span:nth-child(1) {
 	left: 0%;
 }
 
-.petal span:nth-of-type(2) {
+.petal span:nth-child(2) {
 	left: 2%;
 }
 
-.petal span:nth-of-type(3) {
+.petal span:nth-child(3) {
 	left: 4%;
 }
 
-.petal span:nth-of-type(4) {
+.petal span:nth-child(4) {
 	left: 6%;
 }
 
-.petal span:nth-of-type(5) {
+.petal span:nth-child(5) {
 	left: 8%;
 }
 
-.petal span:nth-of-type(6) {
+.petal span:nth-child(6) {
 	left: 10%;
 }
 
-.petal span:nth-of-type(7) {
+.petal span:nth-child(7) {
 	left: 12%;
 }
 
-.petal span:nth-of-type(8) {
+.petal span:nth-child(8) {
 	left: 14%;
 }
 
-.petal span:nth-of-type(9) {
+.petal span:nth-child(9) {
 	left: 16%;
 }
 
-.petal span:nth-of-type(10) {
+.petal span:nth-child(10) {
 	left: 18%;
 }
 
-.petal span:nth-of-type(11) {
+.petal span:nth-child(11) {
 	left: 20%;
 }
 
-.petal span:nth-of-type(12) {
+.petal span:nth-child(12) {
 	left: 22%;
 }
 
-.petal span:nth-of-type(13) {
+.petal span:nth-child(13) {
 	left: 24%;
 }
 
-.petal span:nth-of-type(14) {
+.petal span:nth-child(14) {
 	left: 26%;
 }
 
-.petal span:nth-of-type(15) {
+.petal span:nth-child(15) {
 	left: 28%;
 }
 
-.petal span:nth-of-type(16) {
+.petal span:nth-child(16) {
 	left: 30%;
 }
 
-.petal span:nth-of-type(17) {
+.petal span:nth-child(17) {
 	left: 32%;
 }
 
-.petal span:nth-of-type(18) {
+.petal span:nth-child(18) {
 	left: 34%;
 }
 
-.petal span:nth-of-type(19) {
+.petal span:nth-child(19) {
 	left: 36%;
 }
 
-.petal span:nth-of-type(20) {
+.petal span:nth-child(20) {
 	left: 38%;
 }
 
-.petal span:nth-of-type(21) {
+.petal span:nth-child(21) {
 	left: 40%;
 }
 
-.petal span:nth-of-type(22) {
+.petal span:nth-child(22) {
 	left: 42%;
 }
 
-.petal span:nth-of-type(23) {
+.petal span:nth-child(23) {
 	left: 44%;
 }
 
-.petal span:nth-of-type(24) {
+.petal span:nth-child(24) {
 	left: 46%;
 }
 
-.petal span:nth-of-type(25) {
+.petal span:nth-child(25) {
 	left: 48%;
 }
 
-.petal span:nth-of-type(26) {
+.petal span:nth-child(26) {
 	left: 50%;
 }
 
-.petal span:nth-of-type(27) {
+.petal span:nth-child(27) {
 	left: 52%;
 }
 
-.petal span:nth-of-type(28) {
+.petal span:nth-child(28) {
 	left: 54%;
 }
 
-.petal span:nth-of-type(29) {
+.petal span:nth-child(29) {
 	left: 56%;
 }
 
-.petal span:nth-of-type(30) {
+.petal span:nth-child(30) {
 	left: 58%;
 }
 
-.petal span:nth-of-type(31) {
+.petal span:nth-child(31) {
 	left: 60%;
 }
 
-.petal span:nth-of-type(32) {
+.petal span:nth-child(32) {
 	left: 62%;
 }
 
-.petal span:nth-of-type(33) {
+.petal span:nth-child(33) {
 	left: 64%;
 }
 
-.petal span:nth-of-type(34) {
+.petal span:nth-child(34) {
 	left: 66%;
 }
 
-.petal span:nth-of-type(35) {
+.petal span:nth-child(35) {
 	left: 68%;
 }
 
-.petal span:nth-of-type(36) {
+.petal span:nth-child(36) {
 	left: 70%;
 }
 
-.petal span:nth-of-type(37) {
+.petal span:nth-child(37) {
 	left: 72%;
 }
 
-.petal span:nth-of-type(38) {
+.petal span:nth-child(38) {
 	left: 74%;
 }
 
-.petal span:nth-of-type(39) {
+.petal span:nth-child(39) {
 	left: 76%;
 }
 
-.petal span:nth-of-type(40) {
+.petal span:nth-child(40) {
 	left: 78%;
 }
 
-.petal span:nth-of-type(41) {
+.petal span:nth-child(41) {
 	left: 80%;
 }
 
-.petal span:nth-of-type(42) {
+.petal span:nth-child(42) {
 	left: 82%;
 }
 
-.petal span:nth-of-type(43) {
+.petal span:nth-child(43) {
 	left: 84%;
 }
 
-.petal span:nth-of-type(44) {
+.petal span:nth-child(44) {
 	left: 86%;
 }
 
-.petal span:nth-of-type(45) {
+.petal span:nth-child(45) {
 	left: 88%;
 }
 
-.petal span:nth-of-type(46) {
+.petal span:nth-child(46) {
 	left: 90%;
 }
 
-.petal span:nth-of-type(47) {
+.petal span:nth-child(47) {
 	left: 92%;
 }
 
-.petal span:nth-of-type(48) {
+.petal span:nth-child(48) {
 	left: 94%;
 }
 
-.petal span:nth-of-type(49) {
+.petal span:nth-child(49) {
 	left: 96%;
 }
 
-.petal span:nth-of-type(50) {
+.petal span:nth-child(50) {
 	left: 98%;
 }
 
@@ -245,50 +247,36 @@
 }
 
 .petal span:nth-of-type(3n+3) {
-    transform: rotateX(-180deg);
-}
-
-.petal span:nth-of-type(2n+2) {
-    width: 8px;
-    height: 8px;
-    box-shadow: 1.5px 1.5px 8px #fc7bd1;
-}
-
-.petal span:nth-of-type(3n+3) {
-    width: 6px;
-    height: 8px;
-    box-shadow: 1px 1px 6px #fc7bd1;
-}
-.petal span:nth-of-type(n) {
-    height: 13px;
-    width: 16px;
+    transform: skew(-30deg) rotateX(#{randomTran(-180, 180)}deg) !important;
 }
 
 .petal span:nth-of-type(2n+1) {
-    height: 10px;
-    width: 13px;
+	width: 10px  !important;
+    height: 11px !important;
+	box-shadow: 1.5px 1.5px 8px #fc7bd1 !important;
 }
 
 .petal span:nth-of-type(3n+2) {
-    height: 14px;
-    width: 13px;
+	width: 11px !important;
+    height: 9px !important;
+	box-shadow: 1px 1px 6px #fc7bd1 !important;
 }
 
 /* animation-duration */
 .petal span:nth-of-type(4n+1) {
-	animation-duration: 12s;
+	animation-duration: 20s;
 }
 
 .petal span:nth-of-type(4n+2) {
-	animation-duration: 21s;
+	animation-duration: 29s;
 }
 
 .petal span:nth-of-type(4n+3) {
-	animation-duration: 14s;
+	animation-duration: 22s;
 }
 
 .petal span:nth-of-type(4n+4) {
-	animation-duration: 13s;
+	animation-duration: 21s;
 }
 
 
@@ -340,30 +328,51 @@
 /* animation */
 @keyframes petalAnim1 {
 	0% {
-		transform: translate3d(0, 0, 0) rotate(0);
+		transform: translate3d(0, 0, 0) skewX(-30deg);
+		opacity: 1;
+	}
+
+	40% {
+		transform: translate3d(0, 0, 0) skewX(-30deg);
+		opacity: 1;
 	}
 
 	100% {
-		transform: translate3d(#{randomTran(0, 300)}px, 1200px, 0px) rotate(180deg);
+		transform: translate3d(-#{randomTran(110, 400)}px, 1200px, 0px) rotate(-70deg) skewX(-30deg);
+		opacity: .2;
 	}
 }
 
 @keyframes petalAnim2 {
 	0% {
-		transform: translate3d(0, 0, 0) rotateX(0);
+		transform: translate3d(0, 0, 0) skewX(-30deg);
+		opacity: 1;
+	}
+
+	40% {
+		transform: translate3d(0, 0, 0) skewX(-30deg);
+		opacity: 1;
 	}
 
 	100% {
-		transform: translate3d(#{randomTran(-400, -200)}px, 1100px, 100px) rotateX(180deg);
+		transform: translate3d(#{randomTran(125, 300)}px, 1200px, 0px) rotate(180deg) skewX(-30deg);
+		opacity: .3;
 	}
 }
 
 @keyframes petalAnim3 {
     0% {
-		transform: translate3d(0, 0, 0) rotateX(0);
+		transform: translate3d(0, 0, 0) skewX(30deg);
+		opacity: 1;
+	}
+
+	40% {
+		transform: translate3d(0, 0, 0) skewX(30deg);
+		opacity: 1;
 	}
 
 	100% {
-		transform: translate3d(#{randomTran(150, 250)}px, 1080px, 100px) rotateX(180deg);
+		transform: translate3d(#{randomTran(40, 175)}px, 1200px, 0px) rotate(-290deg) skewX(30deg);
+		opacity: .3;
 	}
 }
