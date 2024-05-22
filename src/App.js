@@ -23,6 +23,7 @@ import countdown from './images/countdown.png';
 // main
 import Cincin1 from './images/cincin1.png';
 import WelcomeModal from './Welcome.js';
+import Petals from './Petal.js';
 import Bismillah from './images/bismillah.png';
 import DividerStyle from './images/divider.png';
 import Bunga1 from './images/bg-mempelai1.png';
@@ -169,7 +170,8 @@ function App() {
   }
 
   return (
-    <div className='App'>
+    <div className='App' style={{position: "relative"}}>
+      <Petals />
       <ReactAudioPlayer id="play-song" src={song} preload='metadata' loop />
       <nav className="navbar burgundy navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menu" style={{dipslay: "fixed"}}>
         <ul className="navbar-nav nav-justified w-100 align-items-center">
