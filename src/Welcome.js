@@ -11,15 +11,14 @@ function WelcomeModal() {
     const [queryParam] = useSearchParams();
     const [show, setShow] = useState(true);
     const handleClose = () => setShow(false);
-    // const queryParam = new URLSearchParams(window.location.search);
-    // const name = queryParam.get("to");
     var [modalClose, setModalClose] = useState("");
 
     const onClick = () => {
         setModalClose("tutup-welcome");
+        const audio = document.getElementById("play-song");
+        audio.load();
         setInterval(() => {
             setShow(false);
-            const audio = document.getElementById("play-song");
             audio.play();
         }, 3000);
     };
