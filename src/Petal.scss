@@ -22,16 +22,28 @@
 	z-index: 1059;
     border-radius: 200px 10px 200px 200px;
     backface-visibility: visible;
-	background: linear-gradient(to bottom, #FAACA8, #CDD6F3);
-    animation: petalAnim3 25s ease infinite;
+	background: linear-gradient(to bottom, #FAACA8, #DDDEEF);
+    animation: petalAnim3 10s ease infinite;
 }
 
 /* add animation */
+.petal span:nth-of-type(3) {
+    animation: petalAnim2 6s ease infinite;
+}
+.petal span:nth-of-type(6) {
+    animation: petalAnim2 7s ease infinite;
+}
+.petal span:nth-of-type(8) {
+    animation: petalAnim1 4s ease infinite;
+}
+.petal span:nth-of-type(9) {
+    animation: petalAnim2 4s ease infinite;
+}
 .petal span:nth-of-type(3n+2) {
-    animation: petalAnim2 13s ease infinite;
+    animation: petalAnim1 4s ease infinite;
 }
 .petal span:nth-of-type(3n+1) {
-    animation: petalAnim1 14s ease infinite;
+    animation: petalAnim3 11s ease infinite;
 }
 
 /* side position */
@@ -240,47 +252,51 @@
     background: linear-gradient(to right, #fffbd5, #F15F79);
 }
 
-.petal span:nth-of-type(3n+1) {
+.petal span:nth-of-type(4n+1) {
     background: linear-gradient(to right, #DD5E89, #F7BB97);
 }
 
 .petal span:nth-of-type(3n+3) {
-    transform: skew(-30deg) rotateX(#{randomTran(-180, 180)}deg) !important;
+    transform: skew(30deg) rotateX(#{randomTran(-180, 180)}deg) !important;
 }
 
 .petal span:nth-of-type(2n+1) {
-	width: 10px  !important;
-    height: 11px !important;
+	width: 13.5px !important;
+    height: 12px !important;
 	box-shadow: 1.5px 1.5px 8px #fc7bd1 !important;
 }
 
-.petal span:nth-of-type(3n+2) {
-	width: 11px !important;
-    height: 9px !important;
+.petal span:nth-of-type(4n+2) {
+	width: 7px !important;
+    height: 8.5px !important;
 	box-shadow: 1px 1px 6px #fc7bd1 !important;
 }
 
 /* animation-duration */
 .petal span:nth-of-type(4n+1) {
-	animation-duration: 30s;
+	animation-duration: 28s;
 }
 
 .petal span:nth-of-type(4n+2) {
-	animation-duration: 39s;
+	animation-duration: 37s;
 }
 
 .petal span:nth-of-type(4n+3) {
-	animation-duration: 32s;
+	animation-duration: 33s;
 }
 
 .petal span:nth-of-type(4n+4) {
-	animation-duration: 31s;
+	animation-duration: 30s;
 }
 
 
 /* animation-delay */
+.petal span:nth-of-type(n) {
+	animation-delay: 2s;
+}
+
 .petal span:nth-of-type(11n+1) {
-	animation-delay: 0s;
+	animation-delay: 1s;
 }
 
 .petal span:nth-of-type(11n+2) {
@@ -288,7 +304,7 @@
 }
 
 .petal span:nth-of-type(11n+3) {
-	animation-delay: 2s;
+	animation-delay: 0s;
 }
 
 .petal span:nth-of-type(11n+4) {
@@ -296,31 +312,31 @@
 }
 
 .petal span:nth-of-type(11n+5) {
-	animation-delay: 6s;
-}
-
-.petal span:nth-of-type(11n+6) {
-	animation-delay: 7s;
-}
-
-.petal span:nth-of-type(11n+7) {
-	animation-delay: 3s;
-}
-
-.petal span:nth-of-type(11n+8) {
-	animation-delay: 1s;
-}
-
-.petal span:nth-of-type(11n+9) {
 	animation-delay: 2s;
 }
 
+.petal span:nth-of-type(11n+6) {
+	animation-delay: 8s;
+}
+
+.petal span:nth-of-type(11n+7) {
+	animation-delay: 0s;
+}
+
+.petal span:nth-of-type(11n+8) {
+	animation-delay: 3s;
+}
+
+.petal span:nth-of-type(11n+9) {
+	animation-delay: 1s;
+}
+
 .petal span:nth-of-type(11n+10) {
-	animation-delay: 11s;
+	animation-delay: 6s;
 }
 
 .petal span:nth-of-type(11n+11) {
-	animation-delay: 10s;
+	animation-delay: 5s;
 }
 
 /* animation */
@@ -330,13 +346,17 @@
 		opacity: 1;
 	}
 
+	5% {
+		top: 34px;
+	}
+	
 	40% {
-		transform: translate3d(0, 0, 0) skewX(-30deg);
+		transform: translate3d(0, 0, 0) skewX(-30deg) rotate(30deg);
 		opacity: 1;
 	}
 
 	100% {
-		transform: translate3d(-#{randomTran(110, 400)}px, 1200px, 0px) rotate(-70deg) skewX(-30deg);
+		transform: translate3d(-#{randomTran(110, 400)}px, 1200px, 0px) rotate(-120deg) rotateX(90deg) skewX(-30deg);
 		opacity: .2;
 	}
 }
@@ -347,13 +367,17 @@
 		opacity: 1;
 	}
 
+	5% {
+		top: 30px;
+	}
+
 	40% {
-		transform: translate3d(0, 0, 0) skewX(-30deg);
+		transform: translate3d(0, 0, 0) skewX(-30deg) rotate(180deg);
 		opacity: 1;
 	}
 
 	100% {
-		transform: translate3d(#{randomTran(125, 300)}px, 1200px, 0px) rotate(180deg) skewX(-30deg);
+		transform: translate3d(#{randomTran(125, 300)}px, 1200px, 0px) rotate(20deg) rotateX(90deg) skewX(-30deg);
 		opacity: .3;
 	}
 }
@@ -364,13 +388,17 @@
 		opacity: 1;
 	}
 
+	5% {
+		top: 35px;
+	}
+
 	40% {
-		transform: translate3d(0, 0, 0) skewX(30deg);
+		transform: translate3d(0, 0, 0) skewX(30deg) rotate(-100deg);
 		opacity: 1;
 	}
 
 	100% {
-		transform: translate3d(#{randomTran(40, 175)}px, 1200px, 0px) rotate(-290deg) skewX(30deg);
+		transform: translate3d(#{randomTran(40, 175)}px, 1200px, 0px) rotate(240deg) rotateX(90deg) skewX(30deg);
 		opacity: .3;
 	}
 }
