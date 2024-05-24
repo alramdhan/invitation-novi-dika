@@ -27,22 +27,10 @@
 }
 
 /* add animation */
-.petal span:nth-of-type(3) {
-    animation: petalAnim2 6s ease infinite;
-}
-.petal span:nth-of-type(6) {
-    animation: petalAnim2 7s ease infinite;
-}
-.petal span:nth-of-type(8) {
-    animation: petalAnim1 4s ease infinite;
-}
-.petal span:nth-of-type(9) {
+.petal span:nth-of-type(3n+2) {
     animation: petalAnim2 4s ease infinite;
 }
-.petal span:nth-of-type(3n+2) {
-    animation: petalAnim1 4s ease infinite;
-}
-.petal span:nth-of-type(3n+1) {
+.petal span:nth-of-type(4n+1) {
     animation: petalAnim3 11s ease infinite;
 }
 
