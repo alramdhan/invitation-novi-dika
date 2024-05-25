@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
 #overlay .content .welcome-pengantin {
   font-family: "Camellia Signature";
   font-style: normal;
-  margin-bottom: 20% !important;
+  margin-bottom: 14% !important;
 }
 
 #overlay .content .couple-main {
@@ -386,7 +386,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (min-width: 500px) {
   #overlay .content .welcome-pengantin {
-    margin-bottom: 8% !important;
+    margin-bottom: 60px !important;
   }
 }
 
