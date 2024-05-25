@@ -32,7 +32,7 @@ import Bunga2 from './images/bg-mempelai2.png';
 import MempelaiPria from './images/mempelai-pria.png';
 import MempelaiWanita from './images/mempelai-wanita.png';
 import AdabWalimah from './images/adab-walimah.png';
-import song from './audio/the-corrs-lyrics.mp3';
+import song from './audio/Cinderella-2015.mp3';
 import { Badge, Button, Card, Form, Toast, ToastContainer } from 'react-bootstrap';
 import axios from 'axios';
 import Swal from 'sweetalert2';
