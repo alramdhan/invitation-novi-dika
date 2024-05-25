@@ -7,7 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: "/invitation-novi-dika/",
+    path: "/novi-dika/",
     element: <App />
   }
 ]);

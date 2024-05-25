@@ -23,15 +23,15 @@
     border-radius: 200px 10px 200px 200px;
     backface-visibility: visible;
 	background: linear-gradient(to bottom, #FAACA8, #DDDEEF);
-    animation: petalAnim3 10s ease infinite;
+    animation: petalAnim2 10s ease infinite;
 }
 
 /* add animation */
 .petal span:nth-of-type(3n+2) {
-    animation: petalAnim2 4s ease infinite;
+    animation: petalAnim3 9s ease infinite;
 }
-.petal span:nth-of-type(4n+1) {
-    animation: petalAnim3 11s ease infinite;
+.petal span:nth-of-type(3n+1) {
+    animation: petalAnim1 11s ease infinite;
 }
 
 /* side position */
@@ -244,9 +244,9 @@
     background: linear-gradient(to right, #DD5E89, #F7BB97);
 }
 
-.petal span:nth-of-type(3n+3) {
-    transform: skew(30deg) rotateX(#{randomTran(-180, 180)}deg) !important;
-}
+// .petal span:nth-of-type(3n+3) {
+//     transform: skew(30deg) rotateX(#{randomTran(-180, 180)}deg) !important;
+// }
 
 .petal span:nth-of-type(2n+1) {
 	width: 13.5px !important;
@@ -279,12 +279,16 @@
 
 
 /* animation-delay */
-.petal span:nth-of-type(n) {
+.petal span:nth-of-type(1n) {
 	animation-delay: 2s;
 }
 
+.petal span:nth-of-type(2n) {
+	animation-delay: 5s;
+}
+
 .petal span:nth-of-type(11n+1) {
-	animation-delay: 1s;
+	animation-delay: 6s;
 }
 
 .petal span:nth-of-type(11n+2) {
@@ -308,7 +312,7 @@
 }
 
 .petal span:nth-of-type(11n+7) {
-	animation-delay: 0s;
+	animation-delay: 1s;
 }
 
 .petal span:nth-of-type(11n+8) {
@@ -330,16 +334,16 @@
 /* animation */
 @keyframes petalAnim1 {
 	0% {
-		transform: translate3d(0, 0, 0) skewX(-30deg);
+		transform: skewX(-30deg) translate3d(0, 0, 0);
 		opacity: 1;
 	}
 
 	5% {
-		top: 34px;
+		top: 10px;
 	}
 	
 	40% {
-		transform: translate3d(0, 0, 0) skewX(-30deg) rotate(30deg);
+		transform: skewX(-30deg) rotate(30deg);
 		opacity: 1;
 	}
 
@@ -351,16 +355,16 @@
 
 @keyframes petalAnim2 {
 	0% {
-		transform: translate3d(0, 0, 0) skewX(-30deg);
+		transform: skewX(-30deg) translate3d(0, 0, 0);
 		opacity: 1;
 	}
 
 	5% {
-		top: 30px;
+		top: 35px;
 	}
 
 	40% {
-		transform: translate3d(0, 0, 0) skewX(-30deg) rotate(180deg);
+		transform: skewX(-30deg) rotate(180deg);
 		opacity: 1;
 	}
 
@@ -372,7 +376,7 @@
 
 @keyframes petalAnim3 {
     0% {
-		transform: translate3d(0, 0, 0) skewX(30deg);
+		transform: skewX(30deg) translate3d(0, 0, 0);
 		opacity: 1;
 	}
 
@@ -381,7 +385,7 @@
 	}
 
 	40% {
-		transform: translate3d(0, 0, 0) skewX(30deg) rotate(-100deg);
+		transform: skewX(30deg) rotate(-100deg);
 		opacity: 1;
 	}
 
