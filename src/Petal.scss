@@ -8,7 +8,7 @@
 .petal {
 	position: fixed;
 	width: 100%;
-    top: -300px;
+    top: -250px;
 	z-index: 200;
     text-align: center;
 }
@@ -151,41 +151,24 @@
 }
 
 .petal span:nth-of-type(4n+3) {
-	width: 7px !important;
-    height: 8.5px !important;
+	width: 9px !important;
+    height: 10.5px !important;
 	box-shadow: 1px 1px 6px #fc7bd1 !important;
 }
 .petal span:nth-of-type(n) {
 	height: 16px;
-	width: 23px;
+	width: 17px;
 }
 
 .petal span:nth-of-type(2n+1) {
 	height: 11px;
-	width: 16px;
+	width: 14.5px;
 }
 
 .petal span:nth-of-type(3n+2) {
-	height: 17px;
+	height: 18px;
 	width: 23px;
 }
-
-/* animation-duration */
-// .petal span:nth-of-type(4n+1) {
-// 	animation-duration: 24s;
-// }
-
-// .petal span:nth-of-type(4n+2) {
-// 	animation-duration: 33s;
-// }
-
-// .petal span:nth-of-type(4n+3) {
-// 	animation-duration: 29s;
-// }
-
-// .petal span:nth-of-type(4n+4) {
-// 	animation-duration: 28s;
-// }
 
 /* animation */
 @keyframes fallingSakura1 {
@@ -196,6 +179,7 @@
 
 	5% {
 		top: 10px;
+		opacity: 1;
 	}
 	
 	40% {
@@ -217,6 +201,7 @@
 
 	5% {
 		top: 10px;
+		opacity: 1;
 	}
 
 	40% {
@@ -238,6 +223,7 @@
 
 	5% {
 		top: 30px;
+		opacity: 1;
 	}
 
 	40% {

@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCalendar,
   faHome,
+  faCalendarDay,
   faComments,
   faClock,
   faMap,
@@ -19,7 +20,7 @@ import {
 import Fireworks from 'react-canvas-confetti/dist/presets/pride'
 import IG from './images/instagram.svg';
 import mempelai from './images/mempelai.png';
-import countdown from './images/countdown.png';
+// import countdown from './images/countdown.png';
 // main
 import Cincin1 from './images/cincin1.png';
 import WelcomeModal from './Welcome.js';
@@ -183,13 +184,14 @@ function App() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#mempelai">
-              <img width={25} src={mempelai} alt="mempelai" />
+              <img width={24} src={mempelai} alt="mempelai" />
               <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Mempelai</span>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#countdown">
-              <img width={25} src={countdown} alt="countdown" />
+              {/* <img width={25} src={countdown} alt="countdown" /> */}
+              <FontAwesomeIcon icon={faCalendarDay} color="#EEE" />
               <span className="d-block" style={{color: "#EEE", fontSize: 0.7 + "rem"}}>Tanggal</span>
             </a>
           </li>
@@ -240,7 +242,7 @@ function App() {
             <img data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" width="70%" src={Bismillah} alt="bismillah"  />
             
             <h3 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" style={{fontSize: "1.6rem", color: "#683448", marginTop: 20}}>Assalamu&apos;alaikum Wr. Wb.</h3>
-            <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className='mb-2' style={{padding: "4px 20px"}}>
+            <p data-aos="fade-up" data-aos-delay="750" data-aos-duration="1000" className='mb-2' style={{padding: "4px 20px"}}>
               Tanpa mengurangi rasa hormat. Kami mengundang Bapak/Ibu/Saudara/i serta Kerabat sekalian untuk menghadiri acara Pernikahan kami:
             </p>
             <div className="position-relative">
@@ -258,7 +260,7 @@ function App() {
                 <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="2000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
                   Putri kedua dari <br /><font className="nama-ortu">Bapak Taufik Hidayat &amp; Ibu Yoyoh</font>
                 </div>
-                <div  data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="2000"  id="social-media-novi">
+                <div  data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="2000"  id="social-media-novi">
                   <ul className="fh5co-social-icons">
                     <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/novinurkom"><img width={15} src={IG} alt="instagram" />&nbsp;&nbsp;novinurkom</a></li>
                   </ul>
@@ -297,7 +299,7 @@ function App() {
                 <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="2000" style={{color: "#BF9B73", fontSize: "1.2rem"}}>
                   Putra pertama dari <br /><font className="nama-ortu">Bapak Yul Haidir &amp; Ibu Suparti</font>
                 </div>
-                <div data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="2000"  id="social-media-dika">
+                <div data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="2000"  id="social-media-dika">
                   <ul className="fh5co-social-icons">
                     <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/al.haidirr"><img width={15} src={IG} alt="instagram" />&nbsp;&nbsp;al.haidirr</a></li>
                   </ul>
@@ -381,7 +383,7 @@ function App() {
                 </svg>
               </div>
             </div>
-            <Card data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" id='acara-akad'>
+            <Card data-aos="zoom-in" data-aos-delay="1250" data-aos-duration="1000" id='acara-akad'>
               <h1 style={{fontSize: "1.4rem", fontWeight: 700}}>AKAD</h1>
               <hr />
               <table className='table table-borderless m-0 p-0 w-100' id='table-acara-akad'>
