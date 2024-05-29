@@ -25,7 +25,7 @@ import WelcomeModal from './Welcome.js';
 import Petals from './Petal.js';
 import ImgPlay from './images/play.png';
 import ImgPause from './images/pause.png';
-import Cincin1 from './images/cincin1.png';
+import CoupleMain from './images/couple-main.png';
 import Bismillah from './images/bismillah.png';
 import DividerStyle from './images/divider.png';
 import Bunga1 from './images/bg-mempelai1.png';
@@ -225,14 +225,16 @@ function App() {
             <h1 className="judul1" style={{fontSize: "2.5rem", fontWeight: 500, marginTop: 200}}>The Wedding Of</h1>
             <div className="mb-4">
               <div className="img-crop mx-auto foto-home">
-                <img className="couple-foto" src={Cincin1} alt="bg" />
+                <img className="couple-foto" src={CoupleMain} alt="bg" />
               </div>
             </div>
 
-            <h3 className="title-pengantin" style={{fontSize: "2rem"}}>Novi &amp; Dika</h3>
-            <p className="mb-0" style={{fontSize: 1.5+"rem"}}>Minggu, 23 Juni 2024</p>
+            <div className="title-pengantin d-flex align-items-center justify-content-center" style={{fontSize: "2rem"}}>
+              <p id="p-wanita">Novi</p>&nbsp;&amp;&nbsp;<p id="p-pria">Dika</p>
+            </div>
+            <p className="home-tanggal mb-0" style={{fontSize: 1.4+"rem"}}>Minggu, 23 Juni 2024</p>
 
-            <a className="btn btn-sm shadow btn-outline-burgundy rounded-pill px-3 my-2" target="_blank" rel='noreferrer' href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NW9mYmtiMjA0b2VmNGo4MnZtNTg4aG9ndTMgZjdiYjBmNmJlYzI5Y2NkNmM2ZDJjYThlOTg2MDhhYjM2NTgwZDRmMDExNmQ1YWVhMGY3ZDY3N2ZlNzQ0YjNmY0Bn&tmsrc=f7bb0f6bec29ccd6c6d2ca8e98608ab36580d4f0116d5aea0f7d677fe744b3fc%40group.calendar.google.com">
+            <a className="btn btn-sm shadow btn-outline-burgundy rounded-pill px-3 my-2" id="btn-save-the-date" target="_blank" rel='noreferrer' href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NW9mYmtiMjA0b2VmNGo4MnZtNTg4aG9ndTMgZjdiYjBmNmJlYzI5Y2NkNmM2ZDJjYThlOTg2MDhhYjM2NTgwZDRmMDExNmQ1YWVhMGY3ZDY3N2ZlNzQ0YjNmY0Bn&tmsrc=f7bb0f6bec29ccd6c6d2ca8e98608ab36580d4f0116d5aea0f7d677fe744b3fc%40group.calendar.google.com">
               <FontAwesomeIcon icon={faCalendar} />&nbsp;Save The Date
             </a>
 

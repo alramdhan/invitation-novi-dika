@@ -59,6 +59,22 @@ function WelcomeModal() {
         setModalClose("tutup-welcome");
         const audio = document.getElementById("play-song");
         audio.load();
+        document.querySelector(".judul1").classList.add("animate__animated", "animate__fadeInDown", "animate__delay-2s");
+        document.querySelector(".judul1").style.setProperty("--animate-duration", '2s');
+        document.querySelector(".couple-foto").classList.add("animate__animated", "animate__zoomInDown", "animate__delay-2s");
+        document.querySelector(".couple-foto").style.setProperty("--animate-duration", '3s');
+        document.querySelector("#p-wanita").classList.add("animate__animated", "animate__backInLeft", "animate__delay-2s");
+        document.querySelector("#p-wanita").style.setProperty("--animate-duration", '3s');
+        document.querySelector("#p-pria").classList.add("animate__animated", "animate__backInRight", "animate__delay-2s");
+        document.querySelector("#p-pria").style.setProperty("--animate-duration", '3s');
+        document.querySelector(".home-tanggal").classList.add("animate__animated", "animate__fadeInUp", "animate__delay-4s");
+        document.querySelector(".home-tanggal").style.setProperty("--animate-duration", '2s');
+        document.querySelector("#btn-save-the-date").classList.add("animate__animated", "animate__fadeInUp", "animate__delay-4s");
+        document.querySelector("#btn-save-the-date").style.setProperty("--animate-duration", '3s');
+        document.querySelector(".mouse-scroll-home").classList.add("animate__animated", "animate__fadeInUp", "animate__delay-4s");
+        document.querySelector(".mouse-scroll-home").style.setProperty("--animate-duration", '2s');
+        document.querySelector(".scroll-down").classList.add("animate__animated", "animate__fadeInUp", "animate__delay-4s");
+        document.querySelector(".scroll-down").style.setProperty("--animate-duration", '2s');
         setTimeout(() => {
             setShow(false);
             confetti({
@@ -93,13 +109,13 @@ function WelcomeModal() {
                             </div>
                             <div className="row">
                                 <div className="col-md-12 col-md-offset-2 text-center fh5co-heading">
-                                    <h1 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='welcome-pengantin text-secondary my-2' style={{fontSize: "2rem"}}>Novi & Dika</h1>
-                                    <p data-aos="zoom-in" data-aos-delay="1250" data-aos-duration="2000" style={{color: "#EEE", marginBottom: 0}}>Kepada yth. Bapak/Ibu/Saudara/i</p>
-                                    <h3 data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="2000" style={{color: "#EEE", marginBottom: 0, fontWeight: "bold"}}>{queryParam.get("to")}</h3>
-                                    <p data-aos="zoom-in" data-aos-delay="1750" data-aos-duration="2000" style={{color: "#EEE", fontSize: 12, marginTop: 7}}>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
+                                    <h1 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1500" className='welcome-pengantin text-secondary my-2' style={{fontSize: "2rem"}}>Novi & Dika</h1>
+                                    <p data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="1500" style={{color: "#EEE", marginBottom: 0}}>Kepada yth. Bapak/Ibu/Saudara/i</p>
+                                    <h3 data-aos="zoom-in" data-aos-delay="1400" data-aos-duration="1500" style={{color: "#EEE", marginBottom: 0, fontWeight: "bold"}}>{queryParam.get("to")}</h3>
+                                    <p data-aos="zoom-in" data-aos-delay="1600" data-aos-duration="1500" style={{color: "#EEE", fontSize: 12, marginTop: 7}}>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
                                     <div style={{height: 12}}></div>
                                     {/* <button className="btn btn-primary" onClick={onClick}>Buka Undangan</button> */}
-                                    <div data-aos="fade-up" data-aos-delay="2000" data-aos-duration="2000">
+                                    <div data-aos="fade-up" data-aos-delay="1800" data-aos-duration="1500">
                                         <Button onClick={onClick} className="rounded-pill btn-burgundy">
                                             <FontAwesomeIcon icon={faEnvelope} />&nbsp;Buka Undangan
                                         </Button>
