@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/novi-dika/static/css/main.ccd2cbc8.css",
-    "main.js": "/novi-dika/static/js/main.76845b1b.js",
+    "main.css": "/novi-dika/static/css/main.2fefb1b2.css",
+    "main.js": "/novi-dika/static/js/main.e9c9c5b7.js",
     "static/js/453.c37f7de6.chunk.js": "/novi-dika/static/js/453.c37f7de6.chunk.js",
     "static/media/img-cincin.png": "/novi-dika/static/media/img-cincin.eafb2cb1a90898c58ae9.png",
-    "static/media/cincin1.png": "/novi-dika/static/media/cincin1.e4b33dbf89531c152b46.png",
     "static/media/Cinderella-2015.mp3": "/novi-dika/static/media/Cinderella-2015.c9866f7f5621bc87cfaf.mp3",
     "static/media/bg-mempelai1.png": "/novi-dika/static/media/bg-mempelai1.1a7a987edcbf80e95c84.png",
     "static/media/bg-mempelai2.png": "/novi-dika/static/media/bg-mempelai2.b1e9cf5d112bedc7724f.png",
@@ -12,6 +11,7 @@
     "static/media/adab-walimah.png": "/novi-dika/static/media/adab-walimah.c80dce7ed7334e584e84.png",
     "static/media/mempelai-wanita.png": "/novi-dika/static/media/mempelai-wanita.21d52fe5ae0995c57290.png",
     "static/media/GeraldinePersonalUseItalic-PK12m.ttf": "/novi-dika/static/media/GeraldinePersonalUseItalic-PK12m.07b14676730419ed2f36.ttf",
+    "static/media/couple-main.png": "/novi-dika/static/media/couple-main.c2ebd48818934b78c188.png",
     "static/media/mempelai-pria.png": "/novi-dika/static/media/mempelai-pria.3cbbe57feb0dce3c3789.png",
     "static/media/HughIsLifePersonalUseItalic-K7axe.ttf": "/novi-dika/static/media/HughIsLifePersonalUseItalic-K7axe.e44eb6bf4ce380aeae6b.ttf",
     "static/media/bg1.jpg": "/novi-dika/static/media/bg1.44944320f0fd3edc9e61.jpg",
@@ -23,12 +23,12 @@
     "static/media/bg2.jpg": "/novi-dika/static/media/bg2.f384f16fc728468a7a95.jpg",
     "index.html": "/novi-dika/index.html",
     "static/media/instagram.svg": "/novi-dika/static/media/instagram.da7c8b906a74d96374903698f965002d.svg",
-    "main.ccd2cbc8.css.map": "/novi-dika/static/css/main.ccd2cbc8.css.map",
-    "main.76845b1b.js.map": "/novi-dika/static/js/main.76845b1b.js.map",
+    "main.2fefb1b2.css.map": "/novi-dika/static/css/main.2fefb1b2.css.map",
+    "main.e9c9c5b7.js.map": "/novi-dika/static/js/main.e9c9c5b7.js.map",
     "453.c37f7de6.chunk.js.map": "/novi-dika/static/js/453.c37f7de6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccd2cbc8.css",
-    "static/js/main.76845b1b.js"
+    "static/css/main.2fefb1b2.css",
+    "static/js/main.e9c9c5b7.js"
   ]
 }
