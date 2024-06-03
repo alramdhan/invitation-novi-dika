@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/novi-dika/static/css/main.9def74aa.css",
-    "main.js": "/novi-dika/static/js/main.4b710bb2.js",
+    "main.css": "/novi-dika/static/css/main.d381a857.css",
+    "main.js": "/novi-dika/static/js/main.126313e9.js",
     "static/js/453.c37f7de6.chunk.js": "/novi-dika/static/js/453.c37f7de6.chunk.js",
     "static/media/Rey Mbayang - Di Sepertiga Malam.mp3": "/novi-dika/static/media/Rey Mbayang - Di Sepertiga Malam.fdf394385747cc0462e7.mp3",
     "static/media/img-cincin.png": "/novi-dika/static/media/img-cincin.eafb2cb1a90898c58ae9.png",
@@ -19,16 +19,17 @@
     "static/media/AudreyTatum.otf": "/novi-dika/static/media/AudreyTatum.eb6d6693ef17e08e286c.otf",
     "static/media/bismillah.png": "/novi-dika/static/media/bismillah.4abee8ba3fc280700d1d.png",
     "static/media/divider.png": "/novi-dika/static/media/divider.5b818b38e84d56983c62.png",
+    "static/media/Winkle-Regular.otf": "/novi-dika/static/media/Winkle-Regular.bccc38898365a3190866.otf",
     "static/media/CamelliaSignature.otf": "/novi-dika/static/media/CamelliaSignature.a92607b7ae6914eb65cb.otf",
     "static/media/bg2.jpg": "/novi-dika/static/media/bg2.f384f16fc728468a7a95.jpg",
     "index.html": "/novi-dika/index.html",
     "static/media/instagram.svg": "/novi-dika/static/media/instagram.da7c8b906a74d96374903698f965002d.svg",
-    "main.9def74aa.css.map": "/novi-dika/static/css/main.9def74aa.css.map",
-    "main.4b710bb2.js.map": "/novi-dika/static/js/main.4b710bb2.js.map",
+    "main.d381a857.css.map": "/novi-dika/static/css/main.d381a857.css.map",
+    "main.126313e9.js.map": "/novi-dika/static/js/main.126313e9.js.map",
     "453.c37f7de6.chunk.js.map": "/novi-dika/static/js/453.c37f7de6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9def74aa.css",
-    "static/js/main.4b710bb2.js"
+    "static/css/main.d381a857.css",
+    "static/js/main.126313e9.js"
   ]
 }
