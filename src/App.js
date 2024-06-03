@@ -33,7 +33,7 @@ import Bunga2 from './images/bg-mempelai2.png';
 import MempelaiPria from './images/mempelai-pria.png';
 import MempelaiWanita from './images/mempelai-wanita.png';
 import AdabWalimah from './images/adab-walimah.png';
-import song from './audio/Cinderella-2015.mp3';
+import Song from './audio/Rey Mbayang - Di Sepertiga Malam.mp3';
 import { Badge, Button, Card, Form, Toast, ToastContainer } from 'react-bootstrap';
 import axios from 'axios';
 import Swal from 'sweetalert2';
@@ -178,7 +178,7 @@ function App() {
   return (
     <div className='App' style={{position: "relative"}}>
       <Petals />
-      <ReactAudioPlayer id="play-song" src={song} preload='metadata' loop />
+      <ReactAudioPlayer id="play-song" src={Song} preload='metadata' loop />
       
       <main className='container-main' data-bs-spy="scroll" data-bs-target="#navbar-menu" data-bs-smooth-scroll="true">
         <Button id='btn-control-audio' onClick={controlAudio}>
