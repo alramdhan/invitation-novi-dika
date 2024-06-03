@@ -394,7 +394,7 @@ function App() {
               </div>
             </div>
             <Card data-aos="zoom-in" data-aos-delay="1250" data-aos-duration="1000" id='acara-akad'>
-              <h1 style={{fontSize: "1.4rem", fontWeight: 700}}>AKAD</h1>
+              <h1 style={{fontSize: "2rem", fontWeight: 700}}>Akad</h1>
               <hr />
               <table className='table table-borderless m-0 p-0 w-100' id='table-acara-akad'>
                 <tbody>
@@ -436,7 +436,7 @@ function App() {
               </div>
             </div>
             <Card data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" id='acara-resepsi'>
-              <h1 style={{fontSize: "1.4rem", fontWeight: 700}}>RESEPSI PERNIKAHAN</h1>
+              <h1 style={{fontSize: "2rem", fontWeight: 700}}>Resepsi Pernikahan</h1>
               <hr />
               <table className='table table-borderless m-0 p-0 w-100' id='table-acara-resepsi'>
                 <tbody>
