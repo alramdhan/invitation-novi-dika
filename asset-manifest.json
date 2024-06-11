@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/novi-dika/static/css/main.e784bab3.css",
-    "main.js": "/novi-dika/static/js/main.5c45332d.js",
+    "main.css": "/novi-dika/static/css/main.aebff0c7.css",
+    "main.js": "/novi-dika/static/js/main.9f819413.js",
     "static/js/453.c37f7de6.chunk.js": "/novi-dika/static/js/453.c37f7de6.chunk.js",
     "static/media/di-sepertiga-malam.mp3": "/novi-dika/static/media/di-sepertiga-malam.e4e9a86a630c2d635e7e.mp3",
     "static/media/img-cincin.png": "/novi-dika/static/media/img-cincin.eafb2cb1a90898c58ae9.png",
@@ -24,12 +24,12 @@
     "static/media/bg2.jpg": "/novi-dika/static/media/bg2.f384f16fc728468a7a95.jpg",
     "index.html": "/novi-dika/index.html",
     "static/media/instagram.svg": "/novi-dika/static/media/instagram.da7c8b906a74d96374903698f965002d.svg",
-    "main.e784bab3.css.map": "/novi-dika/static/css/main.e784bab3.css.map",
-    "main.5c45332d.js.map": "/novi-dika/static/js/main.5c45332d.js.map",
+    "main.aebff0c7.css.map": "/novi-dika/static/css/main.aebff0c7.css.map",
+    "main.9f819413.js.map": "/novi-dika/static/js/main.9f819413.js.map",
     "453.c37f7de6.chunk.js.map": "/novi-dika/static/js/453.c37f7de6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e784bab3.css",
-    "static/js/main.5c45332d.js"
+    "static/css/main.aebff0c7.css",
+    "static/js/main.9f819413.js"
   ]
 }
