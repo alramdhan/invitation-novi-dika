@@ -33,7 +33,7 @@ import Bunga2 from './images/bg-mempelai2.png';
 import MempelaiPria from './images/mempelai-pria.png';
 import MempelaiWanita from './images/mempelai-wanita.png';
 import AdabWalimah from './images/adab-walimah.png';
-import Song from './audio/Rey Mbayang - Di Sepertiga Malam.mp3';
+import Song from './audio/di-sepertiga-malam.mp3';
 import { Badge, Button, Card, Form, Toast, ToastContainer } from 'react-bootstrap';
 import axios from 'axios';
 import Swal from 'sweetalert2';
