@@ -600,7 +600,7 @@ function App() {
                           <td colSpan={2}>
                             <div className='kotak-ucapannya mb-2'>
                               <div className='d-flex justify-content-between align-items-center'>
-                                <h5>{u.nama_tamu}&nbsp;&nbsp;&nbsp;{badge}</h5>
+                                <h5 style={{"color": "#683448"}}>{u.nama_tamu}&nbsp;&nbsp;&nbsp;{badge}</h5>
                                 <span style={{fontSize: ".8rem"}}>{timeSince(new Date(u.tanggal))}</span>
                               </div>
                               <hr className='mb-2 m-0 p-0' />
