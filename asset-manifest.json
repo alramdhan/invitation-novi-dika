@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/novi-dika/static/css/main.aebff0c7.css",
-    "main.js": "/novi-dika/static/js/main.9f819413.js",
+    "main.css": "/novi-dika/static/css/main.3f424b0a.css",
+    "main.js": "/novi-dika/static/js/main.5f0663b6.js",
     "static/js/453.c37f7de6.chunk.js": "/novi-dika/static/js/453.c37f7de6.chunk.js",
     "static/media/di-sepertiga-malam.mp3": "/novi-dika/static/media/di-sepertiga-malam.e4e9a86a630c2d635e7e.mp3",
     "static/media/img-cincin.png": "/novi-dika/static/media/img-cincin.eafb2cb1a90898c58ae9.png",
@@ -22,14 +22,16 @@
     "static/media/Winkle-Regular.otf": "/novi-dika/static/media/Winkle-Regular.bccc38898365a3190866.otf",
     "static/media/CamelliaSignature.otf": "/novi-dika/static/media/CamelliaSignature.a92607b7ae6914eb65cb.otf",
     "static/media/bg2.jpg": "/novi-dika/static/media/bg2.f384f16fc728468a7a95.jpg",
+    "static/media/bca.png": "/novi-dika/static/media/bca.cac40dfe8d98ff085571.png",
+    "static/media/bsi.png": "/novi-dika/static/media/bsi.8ed515d214fd4c56c15c.png",
     "index.html": "/novi-dika/index.html",
     "static/media/instagram.svg": "/novi-dika/static/media/instagram.da7c8b906a74d96374903698f965002d.svg",
-    "main.aebff0c7.css.map": "/novi-dika/static/css/main.aebff0c7.css.map",
-    "main.9f819413.js.map": "/novi-dika/static/js/main.9f819413.js.map",
+    "main.3f424b0a.css.map": "/novi-dika/static/css/main.3f424b0a.css.map",
+    "main.5f0663b6.js.map": "/novi-dika/static/js/main.5f0663b6.js.map",
     "453.c37f7de6.chunk.js.map": "/novi-dika/static/js/453.c37f7de6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aebff0c7.css",
-    "static/js/main.9f819413.js"
+    "static/css/main.3f424b0a.css",
+    "static/js/main.5f0663b6.js"
   ]
 }
