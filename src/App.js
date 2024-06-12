@@ -18,9 +18,8 @@ import {
   faGifts
 } from '@fortawesome/free-solid-svg-icons';
 import IG from './images/instagram.svg';
+import Clock from './images/clock-regular.svg';
 import mempelai from './images/mempelai.png';
-// import countdown from './images/countdown.png';
-// main
 import WelcomeModal from './Welcome.js';
 import Petals from './Petal.js';
 import ImgPlay from './images/play.png';
@@ -33,6 +32,8 @@ import Bunga2 from './images/bg-mempelai2.png';
 import MempelaiPria from './images/mempelai-pria.png';
 import MempelaiWanita from './images/mempelai-wanita.png';
 import AdabWalimah from './images/adab-walimah.png';
+import BSI from './images/bsi.png';
+import BCA from './images/bca.png'
 import Song from './audio/di-sepertiga-malam.mp3';
 import { Badge, Button, Card, Form, Toast, ToastContainer } from 'react-bootstrap';
 import axios from 'axios';
@@ -42,6 +43,14 @@ import ReactAudioPlayer from 'react-audio-player';
 const baseUrl = "https://invitation-alnovi.000webhostapp.com/api";
 
 function App() {
+  const colorAvatar = [
+    "#FDDE55",
+    "#C738BD",
+    "#EE4E4E",
+    "#9BEC00",
+    "#615EFC",
+    "#90D26D",
+  ];
   const [ucapan, setUcapan] = useState(null);
   const [selectedAbsen, setSelectedAbsen] = useState(-1);
   const [playAudio, setPlayAudio] = useState(true);
@@ -134,45 +143,30 @@ function App() {
 
     const interval = Math.floor(seconds / 31536000);
     if(interval > 1) {
-      return interval + " years ago";
-    }
-    if(interval === 1) {
-      return interval + " year ago";
+      return interval + " tahun lalu";
     }
 
     const month = Math.floor(seconds / 2628000);
     if(month > 1) {
-      return month + " months ago";
+      return month + " bulan lalu";
     }
-    if(month === 1) {
-      return month + " month ago";
-    }
-
+    
     const day = Math.floor(seconds / 86400);
     if(day > 1) {
-      return day + " days ago";
-    }
-    if(day === 1) {
-      return day + " day ago";
+      return day + " hari lalu";
     }
 
     const hour = Math.floor(seconds / 3600);
     if(hour > 1) {
-      return hour + " hours ago";
-    }
-    if(hour === 1) {
-      return hour + " hour ago";
+      return hour + " jam lalu";
     }
 
     const minute = Math.floor(seconds / 60);
     if(minute > 1) {
-      return minute + " minutes ago";
-    }
-    if(minute === 1) {
-      return minute + " minute ago";
+      return minute + " menit lalu";
     }
 
-    return "just now";
+    return "baru saja";
   }
 
   return (
@@ -507,7 +501,11 @@ function App() {
               <h3 className='text-secondary'>Wedding Gift</h3>
               <p>Bagi yang ingin memberikan tanda kasih, dapat mengirimkan melalui fitur di bawah ini:</p>
               <div className='rekening1'>
-                BSI<br />
+                {/* BSI<br /> */}
+                <div className='bg-bank-ic d-inline-flex mb-2' style={{padding: "4px 10px 10px 10px"}}>
+                  <img src={BSI} width={98} alt="bsi.png" />
+                </div>
+                <br />
                 1181553212
                 <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("1181553212")}>
                   <FontAwesomeIcon icon={faCopy} />
@@ -522,7 +520,10 @@ function App() {
                 </div>
               </div>
               <div className='rekening3 mt-4'>
-                BCA<br />
+                <div className='bg-bank-ic d-inline-flex mb-2' style={{padding: "5px 10px 5px 10px"}}>
+                  <img src={BCA} width={98} alt="bca.png" />
+                </div>
+                <br />
                 7360721269
                 <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("7360721269")}>
                   <FontAwesomeIcon icon={faCopy} />
@@ -548,7 +549,7 @@ function App() {
                     </tr>
                     <tr>
                       <td>
-                        <p style={{fontSize: 11}}>Jln. Cikopo Selatan, Kp. Munjul RT02/RW05, Kec. Megamendung, Kab. Bogor 16770</p>
+                        <p style={{fontSize: 12}}>Jln. Cikopo Selatan, Kp. Munjul RT02/RW05, Kec. Megamendung, Kab. Bogor 16770</p>
                       </td>
                     </tr>
                   </tbody>
@@ -594,17 +595,47 @@ function App() {
                   <tbody>
                     {ucapan != null ? ucapan.data.map((u) => {
                       const badge = u.absen === 1 ? <Badge bg='success' className='pb-0' style={{fontSize: ".75rem"}}>Hadir</Badge> : <Badge bg='danger' className='pb-0' style={{fontSize: ".75rem"}}>Tidak Hadir</Badge>;
-                      console.log("da", u.tanggal);
+                      const avatar = u.nama_tamu.split(" ");
+                      const bg = colorAvatar[Math.floor(Math.random() * 6)]
+                      const colorText = colorAvatar.indexOf(bg) <= 3 ? "#020202" : "#FFF";
                       return (
                         <tr key={u.id}>
                           <td colSpan={2}>
                             <div className='kotak-ucapannya mb-2'>
-                              <div className='d-flex justify-content-between align-items-center'>
-                                <h5 style={{"color": "#683448"}}>{u.nama_tamu}&nbsp;&nbsp;&nbsp;{badge}</h5>
-                                <span style={{fontSize: ".8rem"}}>{timeSince(new Date(u.tanggal))}</span>
+                              <table style={{width: "100%"}}>
+                                <tbody>
+                                  <tr>
+                                    <td rowSpan={2} valign='top' style={{width: "5%"}}>
+                                      <div className='avatar-ucapan' style={{background: bg, color: colorText}}>
+                                        {avatar[0].substring(0, 1).toUpperCase()}
+                                        {avatar[avatar.length-1].substring(0,1).toUpperCase()}
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <h5 className='mb-0' style={{"color": "#683448"}}>{u.nama_tamu}&nbsp;&nbsp;&nbsp;{badge}</h5>
+                                      <div style={{fontSize: ".8rem", color: "#6C6170"}}>
+                                        <img src={Clock} alt="pending" width={11} height={11} />
+                                        <span>&nbsp;&nbsp;{timeSince(new Date(u.tanggal))}</span>
+                                      </div>
+                                      <hr className='mb-2 m-0 p-0' />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <p style={{color: "#200220"}}>{u.ucapan}</p>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              {/* <div>
+                                <h5 className='mb-0' style={{"color": "#683448"}}>{u.nama_tamu}&nbsp;&nbsp;&nbsp;{badge}</h5>
+                                <div style={{fontSize: ".8rem", color: "#6C6170"}}>
+                                  <img src={Clock} alt="pending" width={11} height={11} />
+                                  <span>&nbsp;&nbsp;{timeSince(new Date(u.tanggal))}</span>
+                                </div>
                               </div>
                               <hr className='mb-2 m-0 p-0' />
-                              <p style={{color: "#200220"}}>{u.ucapan}</p>
+                              <p style={{color: "#200220"}}>{u.ucapan}</p> */}
                             </div>
                           </td>
                         </tr>
