@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/novi-dika/static/css/main.3f424b0a.css",
+    "main.css": "/novi-dika/static/css/main.080e835d.css",
     "main.js": "/novi-dika/static/js/main.5f0663b6.js",
     "static/js/453.c37f7de6.chunk.js": "/novi-dika/static/js/453.c37f7de6.chunk.js",
     "static/media/di-sepertiga-malam.mp3": "/novi-dika/static/media/di-sepertiga-malam.e4e9a86a630c2d635e7e.mp3",
@@ -26,12 +26,12 @@
     "static/media/bsi.png": "/novi-dika/static/media/bsi.8ed515d214fd4c56c15c.png",
     "index.html": "/novi-dika/index.html",
     "static/media/instagram.svg": "/novi-dika/static/media/instagram.da7c8b906a74d96374903698f965002d.svg",
-    "main.3f424b0a.css.map": "/novi-dika/static/css/main.3f424b0a.css.map",
+    "main.080e835d.css.map": "/novi-dika/static/css/main.080e835d.css.map",
     "main.5f0663b6.js.map": "/novi-dika/static/js/main.5f0663b6.js.map",
     "453.c37f7de6.chunk.js.map": "/novi-dika/static/js/453.c37f7de6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f424b0a.css",
+    "static/css/main.080e835d.css",
     "static/js/main.5f0663b6.js"
   ]
 }
