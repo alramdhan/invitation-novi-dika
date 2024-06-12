@@ -18,7 +18,6 @@ import {
   faGifts
 } from '@fortawesome/free-solid-svg-icons';
 import IG from './images/instagram.svg';
-import Clock from './images/clock-regular.svg';
 import mempelai from './images/mempelai.png';
 import WelcomeModal from './Welcome.js';
 import Petals from './Petal.js';
@@ -43,14 +42,6 @@ import ReactAudioPlayer from 'react-audio-player';
 const baseUrl = "https://invitation-alnovi.000webhostapp.com/api";
 
 function App() {
-  const colorAvatar = [
-    "#FDDE55",
-    "#C738BD",
-    "#EE4E4E",
-    "#9BEC00",
-    "#615EFC",
-    "#90D26D",
-  ];
   const [ucapan, setUcapan] = useState(null);
   const [selectedAbsen, setSelectedAbsen] = useState(-1);
   const [playAudio, setPlayAudio] = useState(true);
@@ -136,37 +127,6 @@ function App() {
   const copyToClipboard = (textToCopy) => {
     navigator.clipboard.writeText(textToCopy);
     setShowT(true);
-  }
-
-  function timeSince(date) {
-    var seconds = Math.floor((new Date() - date) / 1000);
-
-    const interval = Math.floor(seconds / 31536000);
-    if(interval > 1) {
-      return interval + " tahun lalu";
-    }
-
-    const month = Math.floor(seconds / 2628000);
-    if(month > 1) {
-      return month + " bulan lalu";
-    }
-    
-    const day = Math.floor(seconds / 86400);
-    if(day > 1) {
-      return day + " hari lalu";
-    }
-
-    const hour = Math.floor(seconds / 3600);
-    if(hour > 1) {
-      return hour + " jam lalu";
-    }
-
-    const minute = Math.floor(seconds / 60);
-    if(minute > 1) {
-      return minute + " menit lalu";
-    }
-
-    return "baru saja";
   }
 
   return (
@@ -595,47 +555,15 @@ function App() {
                   <tbody>
                     {ucapan != null ? ucapan.data.map((u) => {
                       const badge = u.absen === 1 ? <Badge bg='success' className='pb-0' style={{fontSize: ".75rem"}}>Hadir</Badge> : <Badge bg='danger' className='pb-0' style={{fontSize: ".75rem"}}>Tidak Hadir</Badge>;
-                      const avatar = u.nama_tamu.split(" ");
-                      const bg = colorAvatar[Math.floor(Math.random() * 6)]
-                      const colorText = colorAvatar.indexOf(bg) <= 3 ? "#020202" : "#FFF";
                       return (
                         <tr key={u.id}>
                           <td colSpan={2}>
                             <div className='kotak-ucapannya mb-2'>
-                              <table style={{width: "100%"}}>
-                                <tbody>
-                                  <tr>
-                                    <td rowSpan={2} valign='top' style={{width: "5%"}}>
-                                      <div className='avatar-ucapan' style={{background: bg, color: colorText}}>
-                                        {avatar[0].substring(0, 1).toUpperCase()}
-                                        {avatar[avatar.length-1].substring(0,1).toUpperCase()}
-                                      </div>
-                                    </td>
-                                    <td>
-                                      <h5 className='mb-0' style={{"color": "#683448"}}>{u.nama_tamu}&nbsp;&nbsp;&nbsp;{badge}</h5>
-                                      <div style={{fontSize: ".8rem", color: "#6C6170"}}>
-                                        <img src={Clock} alt="pending" width={11} height={11} />
-                                        <span>&nbsp;&nbsp;{timeSince(new Date(u.tanggal))}</span>
-                                      </div>
-                                      <hr className='mb-2 m-0 p-0' />
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <p style={{color: "#200220"}}>{u.ucapan}</p>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              {/* <div>
+                              <div>
                                 <h5 className='mb-0' style={{"color": "#683448"}}>{u.nama_tamu}&nbsp;&nbsp;&nbsp;{badge}</h5>
-                                <div style={{fontSize: ".8rem", color: "#6C6170"}}>
-                                  <img src={Clock} alt="pending" width={11} height={11} />
-                                  <span>&nbsp;&nbsp;{timeSince(new Date(u.tanggal))}</span>
-                                </div>
                               </div>
                               <hr className='mb-2 m-0 p-0' />
-                              <p style={{color: "#200220"}}>{u.ucapan}</p> */}
+                              <p style={{color: "#200220"}}>{u.ucapan}</p>
                             </div>
                           </td>
                         </tr>
