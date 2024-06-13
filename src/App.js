@@ -31,8 +31,6 @@ import Bunga2 from './images/bg-mempelai2.png';
 import MempelaiPria from './images/mempelai-pria.png';
 import MempelaiWanita from './images/mempelai-wanita.png';
 import AdabWalimah from './images/adab-walimah.png';
-import BSI from './images/bsi.png';
-import BCA from './images/bca.png'
 import Song from './audio/di-sepertiga-malam.mp3';
 import { Badge, Button, Card, Form, Toast, ToastContainer } from 'react-bootstrap';
 import axios from 'axios';
@@ -461,11 +459,7 @@ function App() {
               <h3 className='text-secondary'>Wedding Gift</h3>
               <p>Bagi yang ingin memberikan tanda kasih, dapat mengirimkan melalui fitur di bawah ini:</p>
               <div className='rekening1'>
-                {/* BSI<br /> */}
-                <div className='bg-bank-ic d-inline-flex mb-2' style={{padding: "4px 10px 10px 10px"}}>
-                  <img src={BSI} width={98} alt="bsi.png" />
-                </div>
-                <br />
+                BSI<br />
                 1181553212
                 <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("1181553212")}>
                   <FontAwesomeIcon icon={faCopy} />
@@ -480,10 +474,7 @@ function App() {
                 </div>
               </div>
               <div className='rekening3 mt-4'>
-                <div className='bg-bank-ic d-inline-flex mb-2' style={{padding: "5px 10px 5px 10px"}}>
-                  <img src={BCA} width={98} alt="bca.png" />
-                </div>
-                <br />
+                BCA<br />
                 7360721269
                 <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("7360721269")}>
                   <FontAwesomeIcon icon={faCopy} />
