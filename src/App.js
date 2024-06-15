@@ -460,8 +460,8 @@ function App() {
               <p>Bagi yang ingin memberikan tanda kasih, dapat mengirimkan melalui fitur di bawah ini:</p>
               <div className='rekening1'>
                 BSI<br />
-                1181553212
-                <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("1181553212")}>
+                7219616947
+                <Button className='btn btn-outline bg-transparent border-0' onClick={() => copyToClipboard("7219616947")}>
                   <FontAwesomeIcon icon={faCopy} />
                 </Button><br />
                 Siti Novi Nurkomala
